@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <g id="Square">
+    <path d="M20,24H4a4,4,0,0,1-4-4V4A4,4,0,0,1,4,0H20a4,4,0,0,1,4,4V20A4,4,0,0,1,20,24Z" style="fill-rule: evenodd"/>
+  </g>
+</svg>

@@ -10,6 +10,7 @@ import {
   FlatList,
   Platform,
   TextInput,
+  Text,
   SafeAreaView,
   StatusBar
 } from "react-native";
@@ -21,44 +22,57 @@ const App = () => {
   const customColor = "#FF6607";
 
   return (
-    <KeyboardAvoidingView
-      behavior={Platform.OS == "ios" ? "padding" : "height"}
-      style={styles.container}
-    >
-      <SafeAreaView style={styles.safeAreaView}>
-        <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-          <ScrollView style={styles.scrollView}>
-            <View style={{ alignItems: "center" }}>
-              <Icon type={Icon.Types.CALENDAR} color={customColor} />
-              <Icon type={Icon.Types.CHEVRON_LEFT} color={"cadetblue"} />
-              <Icon type={Icon.Types.CHEVRON_RIGHT} color={"#ccee00"} />
-              <Icon type={Icon.Types.EYE_CLOSE} />
-              <Icon type={Icon.Types.EYE_OPEN} />
-              <Icon type={Icon.Types.GRAPH_LINE} />
-              <Icon type={Icon.Types.HOME} />
-              <Icon type={Icon.Types.PHONE} />
-              <Icon type={Icon.Types.SUPPORTER} />
-              <Icon type={Icon.Types.TOOLS} />
-              <Icon type={Icon.Types.USER} />
-            </View>
-          </ScrollView>
-        </TouchableWithoutFeedback>
-      </SafeAreaView>
-    </KeyboardAvoidingView>
+    <SafeAreaView style={styles.safeAreaView}>
+      <ScrollView style={styles.scrollView}>
+        <View style={{ alignItems: "center" }}>
+          <Text>Icons</Text>
+          <Icon type={Icon.Types.ALERT} />
+          <Icon type={Icon.Types.CALENDAR} />
+          <Icon type={Icon.Types.CHECK} />
+          <Icon type={Icon.Types.CHEVRON_DOWN} />
+          <Icon type={Icon.Types.CHEVRON_LEFT} />
+          <Icon type={Icon.Types.CHEVRON_RIGHT} />
+          <Icon type={Icon.Types.CHEVRON_UP} />
+          <Icon type={Icon.Types.CIRCLE_DOT} />
+          <Icon type={Icon.Types.CIRCLE_HOLLOW} />
+          <Icon type={Icon.Types.CIRCLE} />
+          <Icon type={Icon.Types.CLOSE} />
+          <Icon type={Icon.Types.EYE_CLOSE} />
+          <Icon type={Icon.Types.EYE_OPEN} />
+          <Icon type={Icon.Types.GRAPH_LINE} />
+          <Icon type={Icon.Types.HOME} />
+          <Icon type={Icon.Types.PHONE} />
+          <Icon type={Icon.Types.SUPPORTER} />
+          <Icon type={Icon.Types.SQUARE_HOLLOW} />
+          <Icon type={Icon.Types.SQUARE} />
+          <Icon type={Icon.Types.STAR_HOLLOW} />
+          <Icon type={Icon.Types.STAR} />
+          <Icon type={Icon.Types.TOOLS} />
+          <Icon type={Icon.Types.USER} />
+          <Text>Clickotine® Icons</Text>
+          <Icon type={Icon.Types.BREATHING} />
+          <Icon type={Icon.Types.CIGARETTE} />
+          <Icon type={Icon.Types.DOSAGE} />
+          <Icon type={Icon.Types.JOURNAL} />
+          <Icon type={Icon.Types.MISSION} />
+          <Icon type={Icon.Types.OUTDOORS} />
+          <Icon type={Icon.Types.QUIT_AIDS} />
+          <Icon type={Icon.Types.TARGET} />
+          <Icon type={Icon.Types.TROPHY} />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: Constants.statusBarHeight * 2
-  },
   safeAreaView: {
-    flex: 1
+    flex: 1,
+    backgroundColor: "snow"
   },
   scrollView: {
-    paddingHorizontal: 24,
-    backgroundColor: "snow"
+    marginTop: Constants.statusBarHeight,
+    paddingHorizontal: 24
   }
 });
 
