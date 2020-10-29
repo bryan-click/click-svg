@@ -4,6 +4,7 @@ import { View } from "react-native";
 import Svg from "react-native-svg";
 import { Types } from "./config";
 import {
+  Admin,
   Alert,
   Calendar,
   Check,
@@ -34,6 +35,7 @@ import {
   Cigarette,
   Dosage,
   Journal,
+  Medication_List,
   Mission,
   Outdoors,
   Quit_Aids,
@@ -69,6 +71,8 @@ class Icon extends Component {
 
   renderIcon(type) {
     switch (type) {
+      case Types.ADMIN:
+        return <Admin color={this.props.color || ICON_COLOR} />;
       case Types.ALERT:
         return <Alert color={this.props.color || ICON_COLOR} />;
       case Types.CALENDAR:
@@ -123,6 +127,8 @@ class Icon extends Component {
         return <Dosage color={this.props.color || ICON_COLOR} />;
       case Types.JOURNAL:
         return <Journal color={this.props.color || ICON_COLOR} />;
+      case Types.MEDICATION_LIST:
+        return <Medication_List color={this.props.color || ICON_COLOR} />;
       case Types.MISSION:
         return <Mission color={this.props.color || ICON_COLOR} />;
       case Types.OUTDOORS:

@@ -1,4 +1,5 @@
 export const Types = {
+  ADMIN: "admin",
   ALERT: "alert",
   CALENDAR: "calendar",
   CHECK: "check",
@@ -26,6 +27,7 @@ export const Types = {
   CIGARETTE: "cigarette",
   DOSAGE: "dosage",
   JOURNAL: "journal",
+  MEDICATION_LIST: "medication_list",
   MISSION: "mission",
   OUTDOORS: "outdoors",
   QUIT_AIDS: "quit_aids",

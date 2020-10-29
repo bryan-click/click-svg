@@ -26,6 +26,7 @@ const App = () => {
       <ScrollView style={styles.scrollView}>
         <View style={{ alignItems: "center" }}>
           <Text>Icons</Text>
+          <Icon type={Icon.Types.ADMIN} />
           <Icon type={Icon.Types.ALERT} />
           <Icon type={Icon.Types.CALENDAR} />
           <Icon type={Icon.Types.CHECK} />
@@ -54,6 +55,7 @@ const App = () => {
           <Icon type={Icon.Types.CIGARETTE} />
           <Icon type={Icon.Types.DOSAGE} />
           <Icon type={Icon.Types.JOURNAL} />
+          <Icon type={Icon.Types.MEDICATION_LIST} />
           <Icon type={Icon.Types.MISSION} />
           <Icon type={Icon.Types.OUTDOORS} />
           <Icon type={Icon.Types.QUIT_AIDS} />

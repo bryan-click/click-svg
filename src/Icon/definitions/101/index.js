@@ -3,6 +3,7 @@ import Breathing from "./Breathing";
 import Cigarette from "./Cigarette";
 import Dosage from "./Dosage";
 import Journal from "./Journal";
+import Medication_List from "./Medication_List";
 import Mission from "./Mission";
 import Outdoors from "./Outdoors";
 import Quit_Aids from "./Quit_Aids";
@@ -14,6 +15,7 @@ export {
   Cigarette,
   Dosage,
   Journal,
+  Medication_List,
   Mission,
   Outdoors,
   Quit_Aids,
