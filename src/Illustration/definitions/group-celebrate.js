@@ -1,0 +1,54 @@
+import React, { Fragment } from "react";
+import { View } from "react-native";
+import Svg, {
+  G,
+  Path,
+  Use,
+  Defs,
+  Symbol,
+  Ellipse,
+  Rect
+} from "react-native-svg";
+
+import { Backdrop, Blobs } from "./shared";
+
+import { ManCelebrate, WomanCelebrate } from "./shared/humans";
+
+function GroupCelebrate({ width, height, viewBox, preserveAspectRatio }) {
+  return (
+    <Svg
+      preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
+      width={width || 327}
+      height={height || 218}
+      viewBox={viewBox || "0 0 327 218"}
+    >
+      <Defs>
+        <Backdrop />
+        <Blobs />
+        <ManCelebrate />
+        <WomanCelebrate />
+      </Defs>
+      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use
+        width={282}
+        height={205}
+        transform="translate(16 6)"
+        xlinkHref="#blob4"
+      />
+      <Use
+        width={127.58}
+        height={179.38}
+        transform="translate(40 23)"
+        xlinkHref="#man-celebrate"
+      />
+      <Use
+        width={104.75}
+        height={181.04}
+        transform="translate(171 23)"
+        xlinkHref="#woman-celebrate"
+      />
+    </Svg>
+  );
+}
+
+export default GroupCelebrate;

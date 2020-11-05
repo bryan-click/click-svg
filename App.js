@@ -16,6 +16,7 @@ import {
 } from "react-native";
 import Constants from "expo-constants";
 import { Icon } from "./src/Icon";
+import { Illustration } from "./src/Illustration";
 
 const App = () => {
   // 🖍 Override ICON_COLOR with a custom variable or pass a string to the 'color' prop
@@ -24,7 +25,11 @@ const App = () => {
   return (
     <SafeAreaView style={styles.safeAreaView}>
       <ScrollView style={styles.scrollView}>
-        <View style={{ alignItems: "center" }}>
+        <View
+          style={{
+            alignItems: "center"
+          }}
+        >
           <Text>Icons</Text>
           <Icon type={Icon.Types.ADMIN} />
           <Icon type={Icon.Types.ALERT} />
@@ -61,6 +66,37 @@ const App = () => {
           <Icon type={Icon.Types.QUIT_AIDS} />
           <Icon type={Icon.Types.TARGET} />
           <Icon type={Icon.Types.TROPHY} />
+          <Text>Clickotine® Illustrations</Text>
+          <Illustration type={Illustration.Types.GROUP_CELEBRATE} />
+          <Illustration type={Illustration.Types.GROUP_CLINIC} />
+          <Illustration type={Illustration.Types.GROUP_COUNSEL} />
+          <Illustration type={Illustration.Types.GROUP_FRIENDSHIP} />
+          <Illustration type={Illustration.Types.GROUP_SUPPORT} />
+
+          <Illustration type={Illustration.Types.INDIVIDUAL_MAN_DEVICE} />
+          <Illustration type={Illustration.Types.INDIVIDUAL_MAN_FINANCE} />
+          <Illustration type={Illustration.Types.INDIVIDUAL_MAN_STRENGTH} />
+
+          <Illustration
+            type={Illustration.Types.INDIVIDUAL_NONBINARY_CELEBRATE}
+          />
+          <Illustration
+            type={Illustration.Types.INDIVIDUAL_NONBINARY_DATETIME}
+          />
+          <Illustration
+            type={
+              Illustration.Types.INDIVIDUAL_NONBINARY_HEALTHWORKER_QUIT_AIDS
+            }
+          />
+
+          <Illustration type={Illustration.Types.INDIVIDUAL_WOMAN_DATETIME} />
+          <Illustration
+            type={Illustration.Types.INDIVIDUAL_WOMAN_HEALTHWORKER_QUIT_AIDS}
+          />
+          <Illustration type={Illustration.Types.INTROSPECTIVE_JOURNAL} />
+          <Illustration type={Illustration.Types.INTROSPECTIVE_TIME} />
+          <Illustration type={Illustration.Types.MILESTONE_LUNG_RECOVERY} />
+          <Illustration type={Illustration.Types.MILESTONE_RIBBON} />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -73,7 +109,7 @@ const styles = StyleSheet.create({
     backgroundColor: "snow"
   },
   scrollView: {
-    marginTop: Constants.statusBarHeight,
+    marginTop: Constants.statusBarHeight * 0,
     paddingHorizontal: 24
   }
 });
