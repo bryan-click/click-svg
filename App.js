@@ -68,6 +68,13 @@ const App = () => {
           <Icon type={Icon.Types.TROPHY} />
           <Text>Clickotine® Illustrations</Text>
           <Illustration type={Illustration.Types.GROUP_CELEBRATE} />
+          <Text>% as width prop</Text>
+          <Illustration
+            type={Illustration.Types.GROUP_CELEBRATE}
+            width={"100%"}
+          />
+          <Text>number as width prop</Text>
+          <Illustration type={Illustration.Types.GROUP_CELEBRATE} width={100} />
           <Illustration type={Illustration.Types.GROUP_CLINIC} />
           <Illustration type={Illustration.Types.GROUP_COUNSEL} />
           <Illustration type={Illustration.Types.GROUP_FRIENDSHIP} />
@@ -97,6 +104,7 @@ const App = () => {
           <Illustration type={Illustration.Types.INTROSPECTIVE_TIME} />
           <Illustration type={Illustration.Types.MILESTONE_LUNG_RECOVERY} />
           <Illustration type={Illustration.Types.MILESTONE_RIBBON} />
+          <Illustration type={Illustration.Types.MILESTONE_TROPHY} />
         </View>
       </ScrollView>
     </SafeAreaView>

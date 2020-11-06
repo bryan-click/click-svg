@@ -17,5 +17,6 @@ export const Types = {
   INTROSPECTIVE_JOURNAL: "introspective_journal",
   INTROSPECTIVE_TIME: "introspective_time",
   MILESTONE_LUNG_RECOVERY: "milestone_lung_recovery",
-  MILESTONE_RIBBON: "milestone_ribbon"
+  MILESTONE_RIBBON: "milestone_ribbon",
+  MILESTONE_TROPHY: "milestone_trophy"
 };

@@ -21,7 +21,8 @@ import {
   IntrospectiveJournal,
   IntrospectiveTime,
   MilestoneLungRecovery,
-  MilestoneRibbon
+  MilestoneRibbon,
+  MilestoneTrophy
 } from "./definitions";
 
 class Illustration extends Component {
@@ -36,12 +37,13 @@ class Illustration extends Component {
         style={[
           {
             width: this.props.width,
-            height: this.props.height
+            height: this.props.height,
+            aspectRatio: 1.5
           },
           this.props.containerStyle
         ]}
       >
-        {this.renderIllustration(this.props.type)}
+        {this.renderIllustration(this.props.type, this.props.width)}
       </View>
     );
   }
@@ -49,39 +51,43 @@ class Illustration extends Component {
   renderIllustration(type) {
     switch (type) {
       case Types.GROUP_CELEBRATE:
-        return <GroupCelebrate />;
+        return <GroupCelebrate width={this.props.width} />;
       case Types.GROUP_CLINIC:
-        return <GroupClinic />;
+        return <GroupClinic width={this.props.width} />;
       case Types.GROUP_COUNSEL:
-        return <GroupCounsel />;
+        return <GroupCounsel width={this.props.width} />;
       case Types.GROUP_FRIENDSHIP:
-        return <GroupFriendship />;
+        return <GroupFriendship width={this.props.width} />;
       case Types.GROUP_SUPPORT:
-        return <GroupSupport />;
+        return <GroupSupport width={this.props.width} />;
       case Types.INDIVIDUAL_MAN_DEVICE:
-        return <IndividualManDevice />;
+        return <IndividualManDevice width={this.props.width} />;
       case Types.INDIVIDUAL_MAN_FINANCE:
-        return <IndividualManFinance />;
+        return <IndividualManFinance width={this.props.width} />;
       case Types.INDIVIDUAL_MAN_STRENGTH:
-        return <IndividualManStrength />;
+        return <IndividualManStrength width={this.props.width} />;
       case Types.INDIVIDUAL_NONBINARY_CELEBRATE:
-        return <IndividualNonBinaryCelebrate />;
+        return <IndividualNonBinaryCelebrate width={this.props.width} />;
       case Types.INDIVIDUAL_NONBINARY_DATETIME:
-        return <IndividualNonBinaryDatetime />;
+        return <IndividualNonBinaryDatetime width={this.props.width} />;
       case Types.INDIVIDUAL_NONBINARY_HEALTHWORKER_QUIT_AIDS:
-        return <IndividualNonBinaryHealthworkerQuitAids />;
+        return (
+          <IndividualNonBinaryHealthworkerQuitAids width={this.props.width} />
+        );
       case Types.INDIVIDUAL_WOMAN_DATETIME:
         return <IndividualWomanDatetime />;
       case Types.INDIVIDUAL_WOMAN_HEALTHWORKER_QUIT_AIDS:
-        return <IndividualWomanHealthworkerQuitAids />;
+        return <IndividualWomanHealthworkerQuitAids width={this.props.width} />;
       case Types.INTROSPECTIVE_JOURNAL:
-        return <IntrospectiveJournal />;
+        return <IntrospectiveJournal width={this.props.width} />;
       case Types.INTROSPECTIVE_TIME:
-        return <IntrospectiveTime />;
+        return <IntrospectiveTime width={this.props.width} />;
       case Types.MILESTONE_LUNG_RECOVERY:
-        return <MilestoneLungRecovery />;
+        return <MilestoneLungRecovery width={this.props.width} />;
       case Types.MILESTONE_RIBBON:
-        return <MilestoneRibbon />;
+        return <MilestoneRibbon width={this.props.width} />;
+      case Types.MILESTONE_TROPHY:
+        return <MilestoneTrophy width={this.props.width} />;
       default:
         return null;
     }

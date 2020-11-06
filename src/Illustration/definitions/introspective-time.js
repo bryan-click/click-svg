@@ -17,7 +17,7 @@ function IntrospectiveTime({ width, height, viewBox, preserveAspectRatio }) {
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
       width={width || 327}
-      height={height || 218}
+      height={width / 1.5 || 218}
       viewBox={viewBox || "0 0 327 218"}
     >
       <Defs>

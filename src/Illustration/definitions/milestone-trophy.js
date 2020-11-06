@@ -10,14 +10,14 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { Backdrop, Blobs } from "./shared";
+import { Backdrop, Blobs, Confetti } from "./shared";
 
 function MilestoneTrophy({ width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
       width={width || 327}
-      height={height || 218}
+      height={width / 1.5 || 218}
       viewBox={viewBox || "0 0 327 218"}
     >
       <Defs>
