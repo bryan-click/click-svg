@@ -16,6 +16,7 @@ import {
   Plant3,
   Ribbon,
   Table,
+  Trophy,
   ThoughtBubbles,
   Wallshelf
 } from "./objects";
@@ -33,9 +34,17 @@ export {
   Plant3,
   Ribbon,
   Table,
+  Trophy,
   ThoughtBubbles,
   Wallshelf
 };
 
-import { Confetti, Sparkles, Wreath } from "./ornaments";
-export { Confetti, Sparkles, Wreath };
+import {
+  Confetti,
+  Sparkles,
+  Star,
+  StarArch,
+  StarRing,
+  Wreath
+} from "./ornaments";
+export { Confetti, Sparkles, Star, StarArch, StarRing, Wreath };

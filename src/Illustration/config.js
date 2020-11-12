@@ -17,6 +17,15 @@ export const Types = {
   INTROSPECTIVE_JOURNAL: "introspective_journal",
   INTROSPECTIVE_TIME: "introspective_time",
   MILESTONE_LUNG_RECOVERY: "milestone_lung_recovery",
+  MILESTONE_POST_QUIT_DAY_1: "milestone_post_quit_day_1",
+  MILESTONE_POST_QUIT_DAY_2: "milestone_post_quit_day_2",
+  MILESTONE_POST_QUIT_DAY_3: "milestone_post_quit_day_3",
+  MILESTONE_POST_QUIT_DAY_4: "milestone_post_quit_day_4",
+  MILESTONE_POST_QUIT_DAY_5: "milestone_post_quit_day_5",
+  MILESTONE_POST_QUIT_DAY_6: "milestone_post_quit_day_6",
+  MILESTONE_POST_QUIT_WEEK_1: "milestone_post_quit_week_1",
+  MILESTONE_POST_QUIT_WEEK_2: "milestone_post_quit_week_2",
+  MILESTONE_POST_QUIT_WEEK_3: "milestone_post_quit_week_3",
   MILESTONE_RIBBON: "milestone_ribbon",
   MILESTONE_TROPHY: "milestone_trophy"
 };

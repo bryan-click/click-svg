@@ -103,6 +103,17 @@ const App = () => {
           <Illustration type={Illustration.Types.INTROSPECTIVE_JOURNAL} />
           <Illustration type={Illustration.Types.INTROSPECTIVE_TIME} />
           <Illustration type={Illustration.Types.MILESTONE_LUNG_RECOVERY} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_DAY_1} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_DAY_2} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_DAY_3} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_DAY_4} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_DAY_5} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_DAY_6} />
+
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_WEEK_1} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_WEEK_2} />
+          <Illustration type={Illustration.Types.MILESTONE_POST_QUIT_WEEK_3} />
+
           <Illustration type={Illustration.Types.MILESTONE_RIBBON} />
           <Illustration type={Illustration.Types.MILESTONE_TROPHY} />
         </View>

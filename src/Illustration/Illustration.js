@@ -21,6 +21,15 @@ import {
   IntrospectiveJournal,
   IntrospectiveTime,
   MilestoneLungRecovery,
+  MilestonePostQuitDay1,
+  MilestonePostQuitDay2,
+  MilestonePostQuitDay3,
+  MilestonePostQuitDay4,
+  MilestonePostQuitDay5,
+  MilestonePostQuitDay6,
+  MilestonePostQuitWeek1,
+  MilestonePostQuitWeek2,
+  MilestonePostQuitWeek3,
   MilestoneRibbon,
   MilestoneTrophy
 } from "./definitions";
@@ -84,6 +93,27 @@ class Illustration extends Component {
         return <IntrospectiveTime width={this.props.width} />;
       case Types.MILESTONE_LUNG_RECOVERY:
         return <MilestoneLungRecovery width={this.props.width} />;
+
+      case Types.MILESTONE_POST_QUIT_DAY_1:
+        return <MilestonePostQuitDay1 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_DAY_2:
+        return <MilestonePostQuitDay2 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_DAY_3:
+        return <MilestonePostQuitDay3 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_DAY_4:
+        return <MilestonePostQuitDay4 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_DAY_5:
+        return <MilestonePostQuitDay5 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_DAY_6:
+        return <MilestonePostQuitDay6 width={this.props.width} />;
+
+      case Types.MILESTONE_POST_QUIT_WEEK_1:
+        return <MilestonePostQuitWeek1 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_WEEK_2:
+        return <MilestonePostQuitWeek2 width={this.props.width} />;
+      case Types.MILESTONE_POST_QUIT_WEEK_3:
+        return <MilestonePostQuitWeek3 width={this.props.width} />;
+
       case Types.MILESTONE_RIBBON:
         return <MilestoneRibbon width={this.props.width} />;
       case Types.MILESTONE_TROPHY:

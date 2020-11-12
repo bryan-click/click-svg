@@ -11,6 +11,7 @@ import Plant2 from "./plant-2";
 import Plant3 from "./plant-3";
 import Ribbon from "./ribbon";
 import Table from "./table";
+import Trophy from "./trophy";
 import ThoughtBubbles from "./thought-bubbles";
 import Wallshelf from "./wallshelf";
 
@@ -27,6 +28,7 @@ export {
   Plant3,
   Ribbon,
   Table,
+  Trophy,
   ThoughtBubbles,
   Wallshelf
 };

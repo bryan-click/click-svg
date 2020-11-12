@@ -10,9 +10,14 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { Backdrop, Blobs, Star, Trophy, Wreath } from "./shared";
+import { Backdrop, Blobs, StarArch, Trophy, Confetti } from "./shared";
 
-function MilestoneTrophy({ width, height, viewBox, preserveAspectRatio }) {
+function MilestonePostQuitWeek3({
+  width,
+  height,
+  viewBox,
+  preserveAspectRatio
+}) {
   return (
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
@@ -23,16 +28,22 @@ function MilestoneTrophy({ width, height, viewBox, preserveAspectRatio }) {
       <Defs>
         <Backdrop />
         <Blobs />
-        <Wreath />
+        <Confetti />
         <Trophy />
-        <Star />
+        <StarArch />
       </Defs>
       <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
-        width={255.4}
-        height={211.93}
-        transform="translate(35.8 3.04)"
-        xlinkHref="#blob8"
+        width={183.04}
+        height={176.8}
+        transform="translate(71.98 20.6)"
+        xlinkHref="#blob7"
+      />
+      <Use
+        width={180}
+        height={180}
+        transform="translate(73.5 19.99)"
+        xlinkHref="#confetti"
       />
       <Use
         width={100.38}
@@ -41,19 +52,13 @@ function MilestoneTrophy({ width, height, viewBox, preserveAspectRatio }) {
         xlinkHref="#trophy"
       />
       <Use
-        width={179.99}
-        height={92.01}
-        transform="translate(73.5 63)"
-        xlinkHref="#wreath"
-      />
-      <Use
-        width={9.53}
-        height={8.69}
-        transform="matrix(2.52 0 0 2.52 151.5 73)"
-        xlinkHref="#star"
+        width={34.8}
+        height={12.7}
+        transform="translate(146.1 64.87)"
+        xlinkHref="#star-arch-3"
       />
     </Svg>
   );
 }
 
-export default MilestoneTrophy;
+export default MilestonePostQuitWeek3;

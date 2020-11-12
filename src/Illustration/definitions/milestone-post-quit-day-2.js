@@ -10,9 +10,14 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { Backdrop, Blobs, Star, Wreath, Ribbon } from "./shared";
+import { Backdrop, Blobs, StarRing, Confetti, Ribbon } from "./shared";
 
-function MilestoneRibbon({ width, height, viewBox, preserveAspectRatio }) {
+function MilestonePostQuitDay2({
+  width,
+  height,
+  viewBox,
+  preserveAspectRatio
+}) {
   return (
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
@@ -23,22 +28,22 @@ function MilestoneRibbon({ width, height, viewBox, preserveAspectRatio }) {
       <Defs>
         <Backdrop />
         <Blobs />
-        <Wreath />
-        <Star />
+        <Confetti />
         <Ribbon />
+        <StarRing />
       </Defs>
       <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
       <Use
-        width={255.4}
-        height={211.93}
-        transform="translate(35.8 3.04)"
-        xlinkHref="#blob8"
+        width={183.04}
+        height={176.8}
+        transform="translate(71.98 20.6)"
+        xlinkHref="#blob7"
       />
       <Use
-        width={179.99}
-        height={92.01}
-        transform="translate(73.5 63)"
-        xlinkHref="#wreath"
+        width={180}
+        height={180}
+        transform="translate(73.5 19.99)"
+        xlinkHref="#confetti"
       />
       <Use
         width={81.08}
@@ -47,13 +52,13 @@ function MilestoneRibbon({ width, height, viewBox, preserveAspectRatio }) {
         xlinkHref="#ribbon"
       />
       <Use
-        width={9.53}
-        height={8.69}
-        transform="matrix(2.52 0 0 2.52 151.5 77.58)"
-        xlinkHref="#star"
+        width={43.87}
+        height={52.57}
+        transform="translate(141.56 64.7)"
+        xlinkHref="#star-ring-2"
       />
     </Svg>
   );
 }
 
-export default MilestoneRibbon;
+export default MilestonePostQuitDay2;

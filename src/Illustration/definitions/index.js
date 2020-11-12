@@ -18,7 +18,17 @@ import IndividualWomanHealthworkerQuitAids from "./individual-woman-healthworker
 
 import IntrospectiveJournal from "./introspective-journal";
 import IntrospectiveTime from "./introspective-time";
+
 import MilestoneLungRecovery from "./milestone-lung-recovery";
+import MilestonePostQuitDay1 from "./milestone-post-quit-day-1";
+import MilestonePostQuitDay2 from "./milestone-post-quit-day-2";
+import MilestonePostQuitDay3 from "./milestone-post-quit-day-3";
+import MilestonePostQuitDay4 from "./milestone-post-quit-day-4";
+import MilestonePostQuitDay5 from "./milestone-post-quit-day-5";
+import MilestonePostQuitDay6 from "./milestone-post-quit-day-6";
+import MilestonePostQuitWeek1 from "./milestone-post-quit-week-1";
+import MilestonePostQuitWeek2 from "./milestone-post-quit-week-2";
+import MilestonePostQuitWeek3 from "./milestone-post-quit-week-3";
 import MilestoneRibbon from "./milestone-ribbon";
 import MilestoneTrophy from "./milestone-trophy";
 
@@ -39,6 +49,15 @@ export {
   IntrospectiveJournal,
   IntrospectiveTime,
   MilestoneLungRecovery,
+  MilestonePostQuitDay1,
+  MilestonePostQuitDay2,
+  MilestonePostQuitDay3,
+  MilestonePostQuitDay4,
+  MilestonePostQuitDay5,
+  MilestonePostQuitDay6,
+  MilestonePostQuitWeek1,
+  MilestonePostQuitWeek2,
+  MilestonePostQuitWeek3,
   MilestoneRibbon,
   MilestoneTrophy
 };
