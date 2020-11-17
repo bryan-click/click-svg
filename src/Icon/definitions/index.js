@@ -54,25 +54,39 @@ export {
   User
 };
 
-// 🧩 Iconography CT101 – Clickotine®
-import Breathing from "./101/Breathing";
-import Cigarette from "./101/Cigarette";
-import Dosage from "./101/Dosage";
-import Journal from "./101/Journal";
-import Medication_List from "./101/Medication_List";
-import Mission from "./101/Mission";
-import Outdoors from "./101/Outdoors";
-import Quit_Aids from "./101/Quit_Aids";
-import Target from "./101/Target";
-import Trophy from "./101/Trophy";
+// 🧩 Iconography Clickotine®
+import Breathing from "./Clickotine/Breathing";
+import Cardio from "./Clickotine/Cardio";
+import Cigarette from "./Clickotine/Cigarette";
+import Dosage from "./Clickotine/Dosage";
+import Journal from "./Clickotine/Journal";
+import Kit from "./Clickotine/Kit";
+import Lungs from "./Clickotine/Lungs";
+import Medication_List from "./Clickotine/Medication_List";
+import Medication from "./Clickotine/Medication";
+import Mission from "./Clickotine/Mission";
+import NRT_Gum from "./Clickotine/NRT_Gum";
+import NRT_Lozenge from "./Clickotine/NRT_Lozenge";
+import NRT_Patch from "./Clickotine/NRT_Patch";
+import Outdoors from "./Clickotine/Outdoors";
+import Quit_Aids from "./Clickotine/Quit_Aids";
+import Target from "./Clickotine/Target";
+import Trophy from "./Clickotine/Trophy";
 
 export {
   Breathing,
   Cigarette,
+  Cardio,
   Dosage,
   Journal,
+  Kit,
+  Lungs,
   Medication_List,
+  Medication,
   Mission,
+  NRT_Gum,
+  NRT_Lozenge,
+  NRT_Patch,
   Outdoors,
   Quit_Aids,
   Target,

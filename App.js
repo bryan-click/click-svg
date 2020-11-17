@@ -57,11 +57,18 @@ const App = () => {
           <Icon type={Icon.Types.USER} />
           <Text>Clickotine® Icons</Text>
           <Icon type={Icon.Types.BREATHING} />
+          <Icon type={Icon.Types.CARDIO} />
           <Icon type={Icon.Types.CIGARETTE} />
           <Icon type={Icon.Types.DOSAGE} />
           <Icon type={Icon.Types.JOURNAL} />
+          <Icon type={Icon.Types.KIT} />
+          <Icon type={Icon.Types.LUNGS} />
           <Icon type={Icon.Types.MEDICATION_LIST} />
+          <Icon type={Icon.Types.MEDICATION} />
           <Icon type={Icon.Types.MISSION} />
+          <Icon type={Icon.Types.NRT_GUM} />
+          <Icon type={Icon.Types.NRT_LOZENGE} />
+          <Icon type={Icon.Types.NRT_PATCH} />
           <Icon type={Icon.Types.OUTDOORS} />
           <Icon type={Icon.Types.QUIT_AIDS} />
           <Icon type={Icon.Types.TARGET} />

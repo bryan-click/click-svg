@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { View } from "react-native";
 import Svg from "react-native-svg";
 import { Types } from "./config";
+// 🧩 Iconography Click Design System
 import {
   Admin,
   Alert,
@@ -30,13 +31,21 @@ import {
   User
 } from "./definitions";
 
+// 🧩 Iconography Clickotine®
 import {
   Breathing,
+  Cardio,
   Cigarette,
   Dosage,
   Journal,
+  Kit,
+  Lungs,
   Medication_List,
+  Medication,
   Mission,
+  NRT_Gum,
+  NRT_Lozenge,
+  NRT_Patch,
   Outdoors,
   Quit_Aids,
   Target,
@@ -121,16 +130,30 @@ class Icon extends Component {
         return <User color={this.props.color || ICON_COLOR} />;
       case Types.BREATHING:
         return <Breathing color={this.props.color || ICON_COLOR} />;
+      case Types.CARDIO:
+        return <Cardio color={this.props.color || ICON_COLOR} />;
       case Types.CIGARETTE:
         return <Cigarette color={this.props.color || ICON_COLOR} />;
       case Types.DOSAGE:
         return <Dosage color={this.props.color || ICON_COLOR} />;
       case Types.JOURNAL:
         return <Journal color={this.props.color || ICON_COLOR} />;
+      case Types.KIT:
+        return <Kit color={this.props.color || ICON_COLOR} />;
+      case Types.LUNGS:
+        return <Lungs color={this.props.color || ICON_COLOR} />;
       case Types.MEDICATION_LIST:
         return <Medication_List color={this.props.color || ICON_COLOR} />;
+      case Types.MEDICATION:
+        return <Medication color={this.props.color || ICON_COLOR} />;
       case Types.MISSION:
         return <Mission color={this.props.color || ICON_COLOR} />;
+      case Types.NRT_GUM:
+        return <NRT_Gum color={this.props.color || ICON_COLOR} />;
+      case Types.NRT_LOZENGE:
+        return <NRT_Lozenge color={this.props.color || ICON_COLOR} />;
+      case Types.NRT_PATCH:
+        return <NRT_Patch color={this.props.color || ICON_COLOR} />;
       case Types.OUTDOORS:
         return <Outdoors color={this.props.color || ICON_COLOR} />;
       case Types.QUIT_AIDS:
