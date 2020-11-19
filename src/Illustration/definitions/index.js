@@ -1,4 +1,5 @@
 // 🖼 Illustrations
+import CommunicationOutbound from "./communication-outbound";
 import GroupCelebrate from "./group-celebrate";
 import GroupClinic from "./group-clinic";
 import GroupCounsel from "./group-counsel";
@@ -33,6 +34,7 @@ import MilestoneRibbon from "./milestone-ribbon";
 import MilestoneTrophy from "./milestone-trophy";
 
 export {
+  CommunicationOutbound,
   GroupCelebrate,
   GroupClinic,
   GroupCounsel,

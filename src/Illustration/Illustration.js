@@ -4,6 +4,7 @@ import { View } from "react-native";
 import Svg, { Use, Defs } from "react-native-svg";
 import { Types } from "./config";
 import {
+  CommunicationOutbound,
   GroupCelebrate,
   GroupClinic,
   GroupCounsel,
@@ -59,6 +60,8 @@ class Illustration extends Component {
 
   renderIllustration(type) {
     switch (type) {
+      case Types.COMMUNICATION_OUTBOUND:
+        return <CommunicationOutbound width={this.props.width} />;
       case Types.GROUP_CELEBRATE:
         return <GroupCelebrate width={this.props.width} />;
       case Types.GROUP_CLINIC:

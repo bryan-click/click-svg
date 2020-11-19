@@ -6,6 +6,7 @@ import LampPost from "./lamp-post";
 import Lungs from "./lungs";
 import Meter from "./meter";
 import OfficeChair from "./office-chair";
+import PaperPlane from "./paper-plane";
 import Plant1 from "./plant-1";
 import Plant2 from "./plant-2";
 import Plant3 from "./plant-3";
@@ -23,6 +24,7 @@ export {
   LampPost,
   Lungs,
   OfficeChair,
+  PaperPlane,
   Plant1,
   Plant2,
   Plant3,

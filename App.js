@@ -74,6 +74,7 @@ const App = () => {
           <Icon type={Icon.Types.TARGET} />
           <Icon type={Icon.Types.TROPHY} />
           <Text>Clickotine® Illustrations</Text>
+          <Illustration type={Illustration.Types.COMMUNICATION_OUTBOUND} />
           <Illustration type={Illustration.Types.GROUP_CELEBRATE} />
           <Text>% as width prop</Text>
           <Illustration

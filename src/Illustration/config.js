@@ -1,4 +1,5 @@
 export const Types = {
+  COMMUNICATION_OUTBOUND: "communication_outbound",
   GROUP_CELEBRATE: "group_celebrate",
   GROUP_CLINIC: "group_clinic",
   GROUP_COUNSEL: "group_counsel",
