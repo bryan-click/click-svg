@@ -28,6 +28,12 @@ function CommunicationOutbound({ width, height, viewBox, preserveAspectRatio }) 
       </Defs>
       <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
       <Use
+        width={282.25}
+        height={202.24}
+        transform="translate(22.37 7.88)"
+        xlinkHref="#blob7"
+      />
+      <Use
         width={140}
         height={130}
         transform="translate(93.5 44)"
