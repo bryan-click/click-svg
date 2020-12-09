@@ -75,6 +75,11 @@ const App = () => {
           <Icon type={Icon.Types.TROPHY} />
           <Text>Clickotine® Illustrations</Text>
           <Illustration type={Illustration.Types.COMMUNICATION_OUTBOUND} />
+          <Illustration type={Illustration.Types.DEPENDENCY_LEVEL_HIGH} />
+          <Illustration type={Illustration.Types.DEPENDENCY_LEVEL_LOW} />
+          <Illustration type={Illustration.Types.DEPENDENCY_LEVEL_MODERATE} />
+          <Illustration type={Illustration.Types.DEPENDENCY_LEVEL_VERY_HIGH} />
+          <Illustration type={Illustration.Types.DEPENDENCY_LEVEL_VERY_LOW} />
           <Illustration type={Illustration.Types.GROUP_CELEBRATE} />
           <Text>% as width prop</Text>
           <Illustration

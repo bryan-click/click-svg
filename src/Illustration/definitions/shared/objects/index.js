@@ -23,6 +23,7 @@ export {
   Journal,
   LampPost,
   Lungs,
+  Meter,
   OfficeChair,
   PaperPlane,
   Plant1,

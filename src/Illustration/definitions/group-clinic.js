@@ -32,7 +32,7 @@ function GroupClinic({ width, height, viewBox, preserveAspectRatio }) {
         <WomanHealthworkerStanding />
         <NonBinaryHealthworkerClipboard />
       </Defs>
-      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={282}
         height={205}

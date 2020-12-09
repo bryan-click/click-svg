@@ -12,7 +12,12 @@ import Svg, {
 
 import { Backdrop, Blobs, Sparkles, PaperPlane } from "./shared";
 
-function CommunicationOutbound({ width, height, viewBox, preserveAspectRatio }) {
+function CommunicationOutbound({
+  width,
+  height,
+  viewBox,
+  preserveAspectRatio
+}) {
   return (
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
@@ -26,7 +31,7 @@ function CommunicationOutbound({ width, height, viewBox, preserveAspectRatio }) 
         <Sparkles />
         <PaperPlane />
       </Defs>
-      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={282.25}
         height={202.24}

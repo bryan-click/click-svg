@@ -27,7 +27,7 @@ function IndividualManFinance({ width, height, viewBox, preserveAspectRatio }) {
         <Blobs />
         <ManFinance />
       </Defs>
-      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={255}
         height={212}

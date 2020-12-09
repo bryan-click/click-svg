@@ -1,5 +1,10 @@
 export const Types = {
   COMMUNICATION_OUTBOUND: "communication_outbound",
+  DEPENDENCY_LEVEL_HIGH: "dependency_level_high",
+  DEPENDENCY_LEVEL_LOW: "dependency_level_low",
+  DEPENDENCY_LEVEL_MODERATE: "dependency_level_moderate",
+  DEPENDENCY_LEVEL_VERY_HIGH: "dependency_level_very_high",
+  DEPENDENCY_LEVEL_VERY_LOW: "dependency_level_very_low",
   GROUP_CELEBRATE: "group_celebrate",
   GROUP_CLINIC: "group_clinic",
   GROUP_COUNSEL: "group_counsel",

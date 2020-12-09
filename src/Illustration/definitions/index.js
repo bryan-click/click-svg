@@ -1,5 +1,12 @@
 // 🖼 Illustrations
 import CommunicationOutbound from "./communication-outbound";
+
+import DependencyLevelHigh from "./dependency-level-high";
+import DependencyLevelLow from "./dependency-level-low";
+import DependencyLevelModerate from "./dependency-level-moderate";
+import DependencyLevelVeryHigh from "./dependency-level-very-high";
+import DependencyLevelVeryLow from "./dependency-level-very-low";
+
 import GroupCelebrate from "./group-celebrate";
 import GroupClinic from "./group-clinic";
 import GroupCounsel from "./group-counsel";
@@ -35,6 +42,11 @@ import MilestoneTrophy from "./milestone-trophy";
 
 export {
   CommunicationOutbound,
+  DependencyLevelHigh,
+  DependencyLevelModerate,
+  DependencyLevelLow,
+  DependencyLevelVeryLow,
+  DependencyLevelVeryHigh,
   GroupCelebrate,
   GroupClinic,
   GroupCounsel,

@@ -27,6 +27,12 @@ function IntrospectiveTime({ width, height, viewBox, preserveAspectRatio }) {
       </Defs>
       <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
       <Use
+        width={232.17}
+        height={185.29}
+        transform="translate(47.42 16.35)"
+        xlinkHref="#blob5"
+      />
+      <Use
         width={33}
         height={30}
         transform="matrix(5 0 0 5 70 24)"

@@ -27,6 +27,12 @@ function IntrospectiveJournal({ width, height, viewBox, preserveAspectRatio }) {
       </Defs>
       <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
       <Use
+        width={293}
+        height={184}
+        transform="translate(17 17)"
+        xlinkHref="#blob1"
+      />
+      <Use
         width={247.14}
         height={129}
         transform="matrix(1 0 0 1 28 44)"

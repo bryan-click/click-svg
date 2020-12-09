@@ -5,6 +5,11 @@ import Svg, { Use, Defs } from "react-native-svg";
 import { Types } from "./config";
 import {
   CommunicationOutbound,
+  DependencyLevelHigh,
+  DependencyLevelLow,
+  DependencyLevelModerate,
+  DependencyLevelVeryHigh,
+  DependencyLevelVeryLow,
   GroupCelebrate,
   GroupClinic,
   GroupCounsel,
@@ -62,6 +67,18 @@ class Illustration extends Component {
     switch (type) {
       case Types.COMMUNICATION_OUTBOUND:
         return <CommunicationOutbound width={this.props.width} />;
+
+      case Types.DEPENDENCY_LEVEL_HIGH:
+        return <DependencyLevelHigh width={this.props.width} />;
+      case Types.DEPENDENCY_LEVEL_LOW:
+        return <DependencyLevelLow width={this.props.width} />;
+      case Types.DEPENDENCY_LEVEL_MODERATE:
+        return <DependencyLevelModerate width={this.props.width} />;
+      case Types.DEPENDENCY_LEVEL_VERY_HIGH:
+        return <DependencyLevelVeryHigh width={this.props.width} />;
+      case Types.DEPENDENCY_LEVEL_VERY_LOW:
+        return <DependencyLevelVeryLow width={this.props.width} />;
+
       case Types.GROUP_CELEBRATE:
         return <GroupCelebrate width={this.props.width} />;
       case Types.GROUP_CLINIC:

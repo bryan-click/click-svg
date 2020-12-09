@@ -32,7 +32,7 @@ function MilestonePostQuitDay3({
         <Ribbon />
         <StarRing />
       </Defs>
-      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={183.04}
         height={176.8}

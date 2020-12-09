@@ -30,7 +30,7 @@ function GroupCounsel({ width, height, viewBox, preserveAspectRatio }) {
         <WomanHealthworkerSitting />
         <ManSitting />
       </Defs>
-      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={293}
         height={184}

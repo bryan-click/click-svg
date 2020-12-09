@@ -32,7 +32,7 @@ function IndividualNonBinaryCelebrate({
         <Blobs />
         <NonBinaryCelebrate />
       </Defs>
-      <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
+      <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={232.17}
         height={185.29}
