@@ -7,9 +7,11 @@ import {
   Calendar,
   Chair,
   Clock,
+  ECigarette,
   Journal,
   LampPost,
   Lungs,
+  MedicalSign,
   Meter,
   OfficeChair,
   PaperPlane,
@@ -20,16 +22,19 @@ import {
   Table,
   Trophy,
   ThoughtBubbles,
-  Wallshelf
+  Wallshelf,
+  Wheelchair
 } from "./objects";
 
 export {
   Calendar,
   Chair,
   Clock,
+  ECigarette,
   Journal,
   LampPost,
   Lungs,
+  MedicalSign,
   Meter,
   OfficeChair,
   PaperPlane,
@@ -40,7 +45,8 @@ export {
   Table,
   Trophy,
   ThoughtBubbles,
-  Wallshelf
+  Wallshelf,
+  Wheelchair
 };
 
 import {

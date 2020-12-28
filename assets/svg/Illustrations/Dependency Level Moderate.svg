@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <symbol id="Meter_Moderate" data-name="Meter Moderate" viewBox="0 0 12 96">
+      <rect id="Meter" width="12" height="96" rx="5.5" fill="#333130"/>
+      <path id="Level_4" data-name="Level 4" d="M2,25h8V6A4,4,0,0,0,2,6V25Z" fill="#333130" fill-rule="evenodd"/>
+      <rect id="Level_3" data-name="Level 3" x="2" y="25" width="8" height="23" fill="#333130"/>
+      <rect id="Level_2" data-name="Level 2" x="2" y="48" width="8" height="23" fill="#f7b500"/>
+      <path id="Level_1" data-name="Level 1" d="M2,71h8V90a4,4,0,0,1-8,0V71Z" fill="#6dd400" fill-rule="evenodd"/>
+    </symbol>
+  </defs>
+  <g id="Dependency_Level_Moderate" data-name="Dependency Level Moderate">
+    <use width="12" height="96" transform="translate(149.88) scale(2.27)" xlink:href="#Meter_Moderate"/>
+  </g>
+</svg>

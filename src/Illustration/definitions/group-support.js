@@ -25,19 +25,21 @@ function GroupSupport({ width, height, viewBox, preserveAspectRatio }) {
         <Backdrop />
         <Blobs />
         <ManSupport />
+        <LampPost />
+        <Plant3 />
         <NonBinarySupport />
       </Defs>
       <Use width={327} height={218} xlinkHref="#backdrop" />
       <Use
         width={282}
         height={205}
-        transform="translate(22 7)"
+        transform="translate(22.5 6.5)"
         xlinkHref="#blob4"
       />
       <Use
         width={51.19}
         height={132}
-        transform="translate(253 49)"
+        transform="translate(253.4 49.25)"
         xlinkHref="#plant3"
       />
       <Use

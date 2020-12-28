@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
+      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+    </symbol>
+    <symbol id="Blob_2-2" data-name="Blob 2" viewBox="0 0 327 169">
+      <path id="Blob" d="M212.32,6.5c89.94,27.07,144.45,100.09,97.4,141s-110.43,10.69-170,10.69S0,161.21,0,101.56,122.38-20.57,212.32,6.5Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="Chair" data-name="Chair" viewBox="0 0 94.78 71">
+      <g id="Chair-3" data-name="Chair">
+        <polygon id="Leg" points="15.48 56.35 9.26 71 6.43 71 10.18 55.64 15.48 56.35" fill="#fd9757" fill-rule="evenodd"/>
+        <polygon id="Leg-2" data-name="Leg" points="45.54 56.35 39.32 71 36.49 71 40.24 55.64 45.54 56.35" fill="#fd9757" fill-rule="evenodd"/>
+        <polygon id="Leg-3" data-name="Leg" points="94.78 71 91.96 71 85.74 56.35 91.04 55.64 94.78 71" fill="#fd9757" fill-rule="evenodd"/>
+        <polygon id="Leg-4" data-name="Leg" points="62.98 71 60.16 71 53.94 56.35 59.24 55.64 62.98 71" fill="#fd9757" fill-rule="evenodd"/>
+        <path id="Arm" d="M91.78,20.54V56L55,56.08,48.92,21Zm-3,3.46-36.87.4L57,54l31.76-.07Z" fill="#fd9757" fill-rule="evenodd"/>
+        <g>
+          <polygon id="Shadow" points="50.23 0 62.81 57 11.71 57 0 0 50.23 0" fill="#ffb78a" fill-rule="evenodd"/>
+          <polygon id="Cushion" points="50.29 0 59.16 37 20.91 37 12.04 0 50.29 0" fill="#ffe9db" fill-rule="evenodd"/>
+          <polygon id="Cushion-2" data-name="Cushion" points="91.78 57 46.78 57 46.78 37 91.78 37 91.78 57" fill="#ffe9db" fill-rule="evenodd"/>
+        </g>
+        <path id="Arm-2" data-name="Arm" d="M46.78,21.54V57L10,57.08,3.92,22Zm-3,3.46-36.87.4L12,55l31.76-.07Z" fill="#fd9757" fill-rule="evenodd"/>
+      </g>
+    </symbol>
+    <symbol id="Plant_2" data-name="Plant 2" viewBox="0 0 50 130">
+      <g id="Plant">
+        <path id="Stems" d="M25.72,103Q30.24,83.78,35,64.27,40.91,39.9,47,16A332.83,332.83,0,0,0,27.65,77.32,440.27,440.27,0,0,0,24,0c.39,32.1.37,66.35.29,89C19.32,54.32,7,54,7,54c8.53,6.87,17.29,35,15,65C22.42,113.55,24.48,108.36,25.72,103Z" fill="#ffd3b8" fill-rule="evenodd"/>
+        <path id="Pot" d="M36.6,130H12.88C2.29,129.58-3.59,115.78,2.4,105.83L7.72,97H42.29l5.31,8.83c6,10,.11,23.75-10.47,24.16H36.6" fill="#ffe9db" fill-rule="evenodd"/>
+        <g id="Stripes">
+          <rect y="114.4" width="50" height="7.2" fill="#ffc099"/>
+          <rect x="1" y="105.4" width="47" height="7.2" fill="#ffc099"/>
+        </g>
+      </g>
+    </symbol>
+    <symbol id="Medical_Symbol" data-name="Medical Symbol" viewBox="0 0 53 48">
+      <circle cx="29" cy="24" r="24" fill="#ffa66f"/>
+      <circle cx="24" cy="24" r="24" fill="#ffc09a"/>
+      <path d="M28,8a2,2,0,0,1,2,2v9h9a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2H30v9a2,2,0,0,1-2,2H22a2,2,0,0,1-2-2V29H11a2,2,0,0,1-2-2V21a2,2,0,0,1,2-2h9V10a2,2,0,0,1,2-2Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+  </defs>
+  <g id="Office">
+    <use width="327" height="218" xlink:href="#Backdrop"/>
+    <use width="327" height="169" transform="translate(0 24.5)" xlink:href="#Blob_2-2"/>
+    <use width="94.78" height="71" transform="translate(15.55 122.94)" xlink:href="#Chair"/>
+    <use width="94.78" height="71" transform="matrix(-1, 0, 0, 1, 311.45, 122.94)" xlink:href="#Chair"/>
+    <use width="50" height="130" transform="translate(138 57.79)" xlink:href="#Plant_2"/>
+    <use width="53" height="48" transform="translate(244.5 24.06)" xlink:href="#Medical_Symbol"/>
+  </g>
+</svg>

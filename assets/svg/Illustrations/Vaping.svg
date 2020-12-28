@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
+      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+    </symbol>
+    <symbol id="Blob_6-2" data-name="Blob 6" viewBox="0 0 315 199.05">
+      <path id="Blob" d="M111.36,8.23C25.1,34.32-36.58,150.57,24.74,188.46s129.46-38,186.62-38S315,136.43,315,78.93,197.63-17.86,111.36,8.23Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="E-Cigarette" data-name="E-Cigarette" viewBox="0 0 196.92 114.68">
+      <path id="Highlight" d="M187.44.58l8.74,18.73a1,1,0,0,1-.48,1.33L170.92,32.19l1.73,3.71a4.46,4.46,0,0,1-2.22,5.9l-151,70.43a4.47,4.47,0,0,1-6-2.09l-13-28a4.45,4.45,0,0,1,2.22-5.9l151-70.43a4.44,4.44,0,0,1,5.94,2.09l1.73,3.71L186.12.09A1,1,0,0,1,187.44.58ZM136.73,25.9,95.1,45.31l7.46,16,41.62-19.41Z" fill="#ffc09a" fill-rule="evenodd"/>
+      <path id="Shadow" d="M173.6,23.89q4.69.66,20.25-8c.4-.18,1,.2,1.26.84l1.63,3.73c.3.65.22,1.33-.17,1.51L171.06,33.14,173.31,38a3.15,3.15,0,0,1-1.68,4Q15.21,115.32,14.91,114.68l-12-26a3,3,0,0,1,4.9-3.33c4.91,5.2,10.94,12,18.19,12.82Q38.57,99.56,166.4,35.09a5.67,5.67,0,0,0,2.73-4.35l-7.81-18.51C161,11.58,168.9,23.23,173.6,23.89ZM70.87,57a8.76,8.76,0,1,1-3.46,9.5A8.77,8.77,0,0,1,70.87,57Z" fill="#fd9757" fill-rule="evenodd"/>
+    </symbol>
+  </defs>
+  <g id="Vaping">
+    <use width="327" height="218" xlink:href="#Backdrop"/>
+    <use width="315" height="199.05" transform="translate(6 9.48)" xlink:href="#Blob_6-2"/>
+    <use width="196.92" height="114.68" transform="translate(65.04 51.66)" xlink:href="#E-Cigarette"/>
+  </g>
+</svg>

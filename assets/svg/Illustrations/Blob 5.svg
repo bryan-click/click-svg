@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <symbol id="Blob_5-2" data-name="Blob 5" viewBox="0 0 232.17 185.29">
+      <path id="Blob" d="M58.52,26.61C-1.66,65.47-23.4,167.72,31.69,183.16c31.4,8.8,56.42-11.1,80.23-32.16l3.74-3.33h0l3.74-3.33h0l2.48-2.2c14.47-12.81,28.74-24.59,44-29C209.56,100.6,242,79.71,229.45,35.84S118.7-12.24,58.52,26.61Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+  </defs>
+  <g id="Blob_5" data-name="Blob 5">
+    <use width="232.17" height="185.29" transform="translate(47.42 16.35)" xlink:href="#Blob_5-2"/>
+  </g>
+</svg>

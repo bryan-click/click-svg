@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
+      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+    </symbol>
+    <symbol id="Blob_3-2" data-name="Blob 3" viewBox="0 0 255.4 211.93">
+      <path id="Blob" d="M199.34,70.93c40.38,0,60.07,33.41,55.38,66.84s-31.4,74.16-108.78,74.16S73,142.46,116.51,122.75,159,70.93,199.34,70.93ZM71.32,7.82C144-14.65,149.61,16,142.74,40.75s-21.5,44.85-53,61S32,94.7,10.16,74.62-1.35,30.29,71.32,7.82Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="Money" data-name="Money" viewBox="0 0 17.58 18.71">
+      <g id="Money-3" data-name="Money">
+        <polygon id="Rectangle" points="1.96 0 9.54 1.34 5.55 17.96 0 16.11 1.96 0" fill="#6fc164" fill-rule="evenodd"/>
+        <ellipse id="Oval" cx="4.4" cy="8.31" rx="3.1" ry="2.31" transform="translate(-4.54 11.2) rotate(-80)" fill="#4c8c43"/>
+        <polygon id="Rectangle-2" data-name="Rectangle" points="12.05 1.82 17.58 7.16 4.98 18.71 1.42 14.08 12.05 1.82" fill="#6fc164" fill-rule="evenodd"/>
+        <ellipse id="Oval-2" data-name="Oval" cx="9.43" cy="10.07" rx="3.1" ry="2.31" transform="translate(-4.37 9.86) rotate(-46)" fill="#4c8c43"/>
+      </g>
+    </symbol>
+    <symbol id="Man_Cash" data-name="Man Cash" viewBox="0 0 103.45 182.65">
+      <use width="17.58" height="18.71" transform="translate(85.86 30.46)" xlink:href="#Money"/>
+      <path id="Head-_skin_" data-name="Head-[skin]" d="M54.11,5.11c2.66,5,2.34,17.58-1.1,18.47-1.37.35-4.3-.52-7.28-2.31L47.6,34.5h-11l3.8-17.72a12.47,12.47,0,0,1-3.31-9C37.74-2,51.44.14,54.11,5.11Z" fill="#d4a181" fill-rule="evenodd"/>
+      <path id="Path" d="M49.35,5.77c-1.56.83-2.65,2.42-4,4.53a2.76,2.76,0,0,0-3.77,2.57,2.76,2.76,0,0,0,.83,2c-.64.9-1.35,1.84-2.17,2.81C37.2,15.81,34.91,10.4,37.92,5.2A6.84,6.84,0,0,1,42.87.66,8,8,0,0,1,48.12.28a17.06,17.06,0,0,1,6.65,1.77c0,2.93-.57,3.8-5.42,3.72Z" fill="#191847" fill-rule="evenodd"/>
+      <path id="Beard" d="M46.28,8.91q.63,8.84,3.36,8.83c2.72,0,5-1.72,6.22-1.72.87,0,.67,1.09.1,1.89s-2.8,1.31-2.8,2.34,1.83.24,1.83.85c0,1,.33,2.92-1.43,2.92s-6.88-.65-7.76-3.29q-.87-2.64-1.11-11.13Z" fill="#191847" fill-rule="evenodd"/>
+      <polygon id="Leg-_skin_" data-name="Leg-[skin]" points="32.38 72.65 49.31 130.74 57.27 174.36 65.26 174.36 57.28 72.65 32.38 72.65" fill="#d4a181" fill-rule="evenodd"/>
+      <polygon id="Shadow" points="32.38 72.65 49.31 130.74 57.27 174.36 65.26 174.36 57.28 72.65 32.38 72.65" fill-opacity="0.1" fill-rule="evenodd"/>
+      <path id="Leg-_skin_2" data-name="Leg-[skin]" d="M24.54,72.65c1.18,30.18.72,46.64.45,49.38s-1.78,21.11-12.06,53.25h8.36c13.62-30.83,18.38-49.2,19.94-53.25s6.18-20.51,12.92-49.38Z" fill="#d4a181" fill-rule="evenodd"/>
+      <path id="Pant" d="M31.92,72.65q6.61,30,22.89,95.73H66.53c.86-45-2.82-74.6-9.19-95.73Z" fill="#1f28cf" fill-rule="evenodd"/>
+      <path id="Pant-2" data-name="Pant" d="M24.57,72.65c1.16,30.18-1.85,59.91-11.18,96.19H25.92A405.22,405.22,0,0,0,56,72.65Z" fill="#313ae7" fill-rule="evenodd"/>
+      <path id="Shoe" d="M12,181.27l.46-7.37q4,1.18,10.11-.92a39,39,0,0,0,15.31,6.08,2,2,0,0,1,1.59,2.34s0,.11,0,.17l-.31,1.08H12.92Z" fill="#e4e4e4" fill-rule="evenodd"/>
+      <path id="Shoe-2" data-name="Shoe" d="M55.54,181.27,56,173.9q4,1.18,10.11-.92a39,39,0,0,0,15.3,6.08A2,2,0,0,1,83,181.4a1.36,1.36,0,0,1,0,.17l-.3,1.08H56.46Z" fill="#e4e4e4" fill-rule="evenodd"/>
+      <path id="Arms-_skin_" data-name="Arms-[skin]" d="M15.69,67l9.6,0Q16.4,95.75,15.69,97.5c-1.06,2.64,1.18,6.65,2.15,8.81-1.37.61-2.07,0-2.76-.79l-.21-.24c-.83-.93-1.72-1.88-3.79-.92C7.48,106,4.73,109.08.56,106.5c-.51-.31-1.07-1.5.29-2.43,3.38-2.32,8.25-6.38,8.91-7.71Q11.1,93.62,15.69,67ZM84.26,51.28q3.93-8.66,5-7.7c1,1-.2,2.42.4,3.18s2.72.05,4.95-.75l.48-.17h0l.24-.09c2.46-.91,2,.41,1.6,1.14a36.69,36.69,0,0,1-6.82,5.55c-.53.35-1.08.7-1.66,1h0l-4.29,5.91-3.47-4.68Z" fill="#d4a181" fill-rule="evenodd"/>
+      <path id="Coat-Back" d="M35.36,34.85l9.77-9.25c9.28,3.34,9.72,20.18,18.42,26.95,8.35,6.5,14.87-1.14,21.24-3.17q.13,0,5.74,10.33C76,63.32,61.33,68.78,55,63.44,51.11,60.21,39,45.32,35.36,34.85Z" fill="#e87613" fill-rule="evenodd"/>
+      <path id="Shirt" d="M25.65,76.64H60.81c1.61,0,1.3-2.32,1.07-3.49C59.2,59.64,48.74,45.08,48.74,25.85L38.6,24.26C30.21,37.75,27.31,54.36,25.65,76.64Z" fill="#dde3e9" fill-rule="evenodd"/>
+      <path id="Coat-Front" d="M37.84,24.26a5.33,5.33,0,0,1,.93.07l3.18.18Q55.62,70.8,49.49,86.29H21.82a94.39,94.39,0,0,1-4.71,9.65H9.57Q8.5,61.53,25.94,37.52a5.77,5.77,0,0,1-3.5-3C18.73,27.87,20.07,24.19,24,23S31.52,24.26,37.84,24.26Z" fill="#ff9b21" fill-rule="evenodd"/>
+      <path id="Shade" d="M32.09,86.29H21.82q2.87-6.69,6-15.85Q29.15,81.36,32.09,86.29Z" fill="#e87613" fill-rule="evenodd"/>
+    </symbol>
+  </defs>
+  <g id="Individual_Man_Cash" data-name="Individual Man Cash">
+    <use width="327" height="218" xlink:href="#Backdrop"/>
+    <use width="255.4" height="211.93" transform="translate(35.8 3.04)" xlink:href="#Blob_3-2"/>
+    <use width="103.45" height="182.65" transform="translate(114.8 17.39)" xlink:href="#Man_Cash"/>
+  </g>
+</svg>

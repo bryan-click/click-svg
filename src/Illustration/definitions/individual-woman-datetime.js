@@ -37,20 +37,20 @@ function IndividualWomanDatetime({
       <Use
         width={282}
         height={205}
-        transform="translate(22 6)"
+        transform="translate(22.5 6.5)"
         xlinkHref="#blob4"
       />
       <Use
-        width={64}
-        height={58}
-        transform="translate(90 20)"
+        width={63.46}
+        height={57.9}
+        transform="translate(169.41 18.84)"
         xlinkHref="#calendar"
       />
       <Use
-        width={145.63}
-        height={176.75}
-        transform="translate(90 20)"
-        xlinkHref="#woman_pointing"
+        width={94.44}
+        height={165.03}
+        transform="translate(91 32.67)"
+        xlinkHref="#woman-pointing"
       />
     </Svg>
   );
