@@ -10,7 +10,7 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { Backdrop, Blobs, Clock } from "./shared";
+import { Backdrop, Blobs, Calendar } from "./shared";
 
 function IntrospectiveDatetime({
   width,
@@ -28,20 +28,20 @@ function IntrospectiveDatetime({
       <Defs>
         <Backdrop />
         <Blobs />
-        <Clock />
+        <Calendar />
       </Defs>
       <Use width={"100%"} height={"100%"} xlinkHref="#backdrop" />
       <Use
-        width={232.17}
-        height={185.29}
-        transform="translate(47.42 16.35)"
-        xlinkHref="#blob5"
+        width={293}
+        height={184}
+        transform="translate(17 17)"
+        xlinkHref="#blob1"
       />
       <Use
-        width={33}
-        height={30}
-        transform="matrix(5 0 0 5 70 24)"
-        xlinkHref="#calendar_alt"
+        width={169}
+        height={155.33}
+        transform="translate(79 31.33)"
+        xlinkHref="#calendar-large"
       />
     </Svg>
   );

@@ -31,12 +31,27 @@ function Icons({ navigation }) {
       return (
         <View key={key} style={{ alignItems: "center", marginBottom: 48 }}>
           <Icon type={value} />
-          <Text
-            id={key}
-            style={{ fontSize: 10, textAlign: "center", marginTop: 8 }}
+          <View
+            style={{
+              alignItems: "center",
+              paddingVertical: 4,
+              paddingHorizontal: 8,
+              marginTop: 8,
+              borderRadius: 3,
+              backgroundColor: "black"
+            }}
           >
-            {`<Icon type="${value}" />`}
-          </Text>
+            <Text
+              id={key}
+              style={{
+                color: "salmon",
+                fontSize: 10,
+                textAlign: "center"
+              }}
+            >
+              {`<Icon type="${value}" />`}
+            </Text>
+          </View>
         </View>
       );
     });
@@ -73,12 +88,27 @@ function Illustrations({ navigation }) {
       return (
         <View key={key} style={{ alignItems: "center", marginBottom: 48 }}>
           <Illustration type={value} />
-          <Text
-            id={key}
-            style={{ fontSize: 10, textAlign: "center", marginTop: 8 }}
+          <View
+            style={{
+              alignItems: "center",
+              paddingVertical: 4,
+              paddingHorizontal: 8,
+              marginTop: 8,
+              borderRadius: 3,
+              backgroundColor: "black"
+            }}
           >
-            {`<Illustration type="${value}" />`}
-          </Text>
+            <Text
+              id={key}
+              style={{
+                color: "salmon",
+                fontSize: 10,
+                textAlign: "center"
+              }}
+            >
+              {`<Illustration type="${value}" />`}
+            </Text>
+          </View>
         </View>
       );
     });
