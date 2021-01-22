@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function NRT_Gum({ color, width, height, viewBox, preserveAspectRatio }) {
+function NRTGum({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function NRT_Gum({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default NRT_Gum;
+export default NRTGum;

@@ -1,22 +1,22 @@
 // 🧩 Iconography Clickotine®
-import Breathing from "./Breathing";
-import Cardio from "./Cardio";
-import Cigarette from "./Cigarette";
-import Dosage from "./Dosage";
-import Journal from "./Journal";
-import Kit from "./Kit";
-import Lungs from "./Lungs";
-import Medication_List from "./Medication_List";
-import Medication from "./Medication";
-import Mission from "./Mission";
-import NRT_Gum from "./NRT_Gum";
-import NRT_Lozenge from "./NRT_Lozenge";
-import NRT_Patch from "./NRT_Patch";
-import Mission from "./Mission";
-import Outdoors from "./Outdoors";
-import Quit_Aids from "./Quit_Aids";
-import Target from "./Target";
-import Trophy from "./Trophy";
+import AlarmClock from "./alarm-clock";
+import Breathing from "./breathing";
+import Cardio from "./cardio";
+import Cigarette from "./cigarette";
+import Dosage from "./dosage";
+import Journal from "./journal";
+import Kit from "./kit";
+import Lungs from "./lungs";
+import MedicationList from "./medication-list";
+import Medication from "./medication";
+import Mission from "./mission";
+import NRTGum from "./nrt-gum";
+import NRTLozenge from "./nrt-lozenge";
+import NRTPatch from "./nrt-patch";
+import Outdoors from "./outdoors";
+import QuitAids from "./quit-aids";
+import Target from "./target";
+import Trophy from "./trophy";
 
 export {
   Breathing,
@@ -24,16 +24,16 @@ export {
   Cigarette,
   Dosage,
   Journal,
-  Kt,
+  Kit,
   Lungs,
-  Medication_List,
+  MedicationList,
   Medication,
   Mission,
-  NRT_Gum,
-  NRT_Lozenge,
-  NRT_Patch,
+  NRTGum,
+  NRTLozenge,
+  NRTPatch,
   Outdoors,
-  Quit_Aids,
+  QuitAids,
   Target,
   Trophy
 };

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function NRT_Lozenge({ color, width, height, viewBox, preserveAspectRatio }) {
+function NRTLozenge({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function NRT_Lozenge({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default NRT_Lozenge;
+export default NRTLozenge;

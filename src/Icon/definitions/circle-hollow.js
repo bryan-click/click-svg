@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Chevron_Right({ color, width, height, viewBox, preserveAspectRatio }) {
+function CircleHollow({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -12,11 +12,11 @@ function Chevron_Right({ color, width, height, viewBox, preserveAspectRatio }) {
       viewBox={viewBox || "0 0 24 24"}
     >
       <Path
-        d="M18.52,12a1.24,1.24,0,0,1-.36.88L7.58,23.63a1.21,1.21,0,0,1-1.74,0,1.26,1.26,0,0,1,0-1.76L15.55,12,5.84,2.13a1.26,1.26,0,0,1,0-1.76,1.21,1.21,0,0,1,1.74,0L18.16,11.12A1.24,1.24,0,0,1,18.52,12Z"
+        d="M5,19a9.85,9.85,0,1,1,7,2.89A9.8,9.8,0,0,1,5,19Zm19-7A12,12,0,1,0,12,24,12,12,0,0,0,24,12Z"
         fill={color || "currentColor"}
       />
     </Svg>
   );
 }
 
-export default Chevron_Right;
+export default CircleHollow;

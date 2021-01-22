@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Graph_Line({ color, width, height, viewBox, preserveAspectRatio }) {
+function GraphLine({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function Graph_Line({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default Graph_Line;
+export default GraphLine;

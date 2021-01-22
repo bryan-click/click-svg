@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function NRT_Patch({ color, width, height, viewBox, preserveAspectRatio }) {
+function NRTPatch({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function NRT_Patch({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default NRT_Patch;
+export default NRTPatch;

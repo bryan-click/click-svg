@@ -9,22 +9,22 @@ import {
   Alert,
   Calendar,
   Check,
-  Chevron_Down,
-  Chevron_Left,
-  Chevron_Right,
-  Chevron_Up,
-  Circle_Dot,
-  Circle_Hollow,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
+  CircleDot,
+  CircleHollow,
   Circle,
   Close,
-  Eye_Close,
-  Eye_Open,
-  Graph_Line,
+  EyeClose,
+  EyeOpen,
+  GraphLine,
   Home,
   Phone,
-  Square_Hollow,
+  SquareHollow,
   Square,
-  Star_Hollow,
+  StarHollow,
   Star,
   Supporter,
   Tools,
@@ -40,14 +40,14 @@ import {
   Journal,
   Kit,
   Lungs,
-  Medication_List,
+  MedicationList,
   Medication,
   Mission,
-  NRT_Gum,
-  NRT_Lozenge,
-  NRT_Patch,
+  NRTGum,
+  NRTLozenge,
+  NRTPatch,
   Outdoors,
-  Quit_Aids,
+  QuitAids,
   Target,
   Trophy
 } from "./definitions";
@@ -89,37 +89,37 @@ class Icon extends Component {
       case Types.CHECK:
         return <Check color={this.props.color || ICON_COLOR} />;
       case Types.CHEVRON_DOWN:
-        return <Chevron_Down color={this.props.color || ICON_COLOR} />;
+        return <ChevronDown color={this.props.color || ICON_COLOR} />;
       case Types.CHEVRON_LEFT:
-        return <Chevron_Left color={this.props.color || ICON_COLOR} />;
+        return <ChevronLeft color={this.props.color || ICON_COLOR} />;
       case Types.CHEVRON_RIGHT:
-        return <Chevron_Right color={this.props.color || ICON_COLOR} />;
+        return <ChevronRight color={this.props.color || ICON_COLOR} />;
       case Types.CHEVRON_UP:
-        return <Chevron_Up color={this.props.color || ICON_COLOR} />;
+        return <ChevronUp color={this.props.color || ICON_COLOR} />;
       case Types.CIRCLE_DOT:
-        return <Circle_Dot color={this.props.color || ICON_COLOR} />;
+        return <CircleDot color={this.props.color || ICON_COLOR} />;
       case Types.CIRCLE_HOLLOW:
-        return <Circle_Hollow color={this.props.color || ICON_COLOR} />;
+        return <CircleHollow color={this.props.color || ICON_COLOR} />;
       case Types.CIRCLE:
         return <Circle color={this.props.color || ICON_COLOR} />;
       case Types.CLOSE:
         return <Close color={this.props.color || ICON_COLOR} />;
       case Types.EYE_CLOSE:
-        return <Eye_Close color={this.props.color || ICON_COLOR} />;
+        return <EyeClose color={this.props.color || ICON_COLOR} />;
       case Types.EYE_OPEN:
-        return <Eye_Open color={this.props.color || ICON_COLOR} />;
+        return <EyeOpen color={this.props.color || ICON_COLOR} />;
       case Types.GRAPH_LINE:
-        return <Graph_Line color={this.props.color || ICON_COLOR} />;
+        return <GraphLine color={this.props.color || ICON_COLOR} />;
       case Types.HOME:
         return <Home color={this.props.color || ICON_COLOR} />;
       case Types.PHONE:
         return <Phone color={this.props.color || ICON_COLOR} />;
       case Types.SQUARE_HOLLOW:
-        return <Square_Hollow color={this.props.color || ICON_COLOR} />;
+        return <SquareHollow color={this.props.color || ICON_COLOR} />;
       case Types.SQUARE:
         return <Square color={this.props.color || ICON_COLOR} />;
       case Types.STAR_HOLLOW:
-        return <Star_Hollow color={this.props.color || ICON_COLOR} />;
+        return <StarHollow color={this.props.color || ICON_COLOR} />;
       case Types.STAR:
         return <Star color={this.props.color || ICON_COLOR} />;
       case Types.SUPPORTER:
@@ -143,21 +143,21 @@ class Icon extends Component {
       case Types.LUNGS:
         return <Lungs color={this.props.color || ICON_COLOR} />;
       case Types.MEDICATION_LIST:
-        return <Medication_List color={this.props.color || ICON_COLOR} />;
+        return <MedicationList color={this.props.color || ICON_COLOR} />;
       case Types.MEDICATION:
         return <Medication color={this.props.color || ICON_COLOR} />;
       case Types.MISSION:
         return <Mission color={this.props.color || ICON_COLOR} />;
       case Types.NRT_GUM:
-        return <NRT_Gum color={this.props.color || ICON_COLOR} />;
+        return <NRTGum color={this.props.color || ICON_COLOR} />;
       case Types.NRT_LOZENGE:
-        return <NRT_Lozenge color={this.props.color || ICON_COLOR} />;
+        return <NRTLozenge color={this.props.color || ICON_COLOR} />;
       case Types.NRT_PATCH:
-        return <NRT_Patch color={this.props.color || ICON_COLOR} />;
+        return <NRTPatch color={this.props.color || ICON_COLOR} />;
       case Types.OUTDOORS:
         return <Outdoors color={this.props.color || ICON_COLOR} />;
       case Types.QUIT_AIDS:
-        return <Quit_Aids color={this.props.color || ICON_COLOR} />;
+        return <QuitAids color={this.props.color || ICON_COLOR} />;
       case Types.TARGET:
         return <Target color={this.props.color || ICON_COLOR} />;
       case Types.TROPHY:

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Eye_Close({ color, width, height, viewBox, preserveAspectRatio }) {
+function EyeClose({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function Eye_Close({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default Eye_Close;
+export default EyeClose;

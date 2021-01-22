@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Circle_Dot({ color, width, height, viewBox, preserveAspectRatio }) {
+function ChevronLeft({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -12,11 +12,11 @@ function Circle_Dot({ color, width, height, viewBox, preserveAspectRatio }) {
       viewBox={viewBox || "0 0 24 24"}
     >
       <Path
-        d="M14,12a2,2,0,1,1-2-2A2,2,0,0,1,14,12Z"
+        d="M5.48,12a1.24,1.24,0,0,1,.36-.88L16.42.37a1.21,1.21,0,0,1,1.74,0,1.26,1.26,0,0,1,0,1.76L8.45,12l9.71,9.87a1.26,1.26,0,0,1,0,1.76,1.21,1.21,0,0,1-1.74,0L5.84,12.88A1.24,1.24,0,0,1,5.48,12Z"
         fill={color || "currentColor"}
       />
     </Svg>
   );
 }
 
-export default Circle_Dot;
+export default ChevronLeft;

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Eye_Open({ color, width, height, viewBox, preserveAspectRatio }) {
+function EyeOpen({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function Eye_Open({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default Eye_Open;
+export default EyeOpen;

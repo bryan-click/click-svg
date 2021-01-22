@@ -22,10 +22,11 @@ function NonBinarySitting() {
         <Path
           d="M39.53 128.27l3.27 35.44H58l-.67-51.45 28.94.2c8.25 0 16.23-7.08 15.66-15.29L101 88.8l-44.19-13c-8.18-1.85-11 .59-16.32 10l-23.42 47.87 12.86 8.57z"
           fill="#222425"
+          fillRule="evenodd"
         />
         <Path
           d="M53.32 91.86l33.09 20.63-28.92-.2.68 51.49H43l-5.2-56.31C36.54 97.22 43 91.86 53.32 91.86"
-          fill="#18181c"
+          fill="#131415"
           fillRule="evenodd"
         />
         <Path
@@ -44,7 +45,6 @@ function NonBinarySitting() {
           fillRule="evenodd"
         />
         <Path
-          data-name="Arm"
           d="M53.25 69.57L40 82.47a40.17 40.17 0 00-9.46 5.44c-.55.67-1.16 2 1.45 1.37s5.36-1 5.85-.21-1 2.15 0 3.25q.9 1.11 6.08-7l13.76-8.11zM112 71.39q4.66 27.06 6 29.83c.67 1.36 5.62 5.48 9.06 7.84 1.38 1 .81 2.16.29 2.48-4.24 2.61-7-.48-10.7-2.18-4-1.87-3.67 3.4-6.86 2 1-2.19 3.26-6.27 2.18-9q-.72-1.78-9.76-31z"
           fill="#915b3c"
           fillRule="evenodd"
@@ -55,8 +55,8 @@ function NonBinarySitting() {
           fillRule="evenodd"
         />
         <Path
-          d="M101.84 81.18h-36q12.5-30.38 12.5-51.62l10.85-1.62c8.56 13.71 10.97 30.6 12.65 53.24z"
-          fill="#dde3e9"
+          d="M101.84 82.94h-36q12.5-31.38 12.5-53.33l10.85-1.67c8.56 14.17 10.97 31.61 12.65 55z"
+          fill="#1d7665"
           fillRule="evenodd"
         />
         <Path
@@ -70,21 +70,14 @@ function NonBinarySitting() {
           fillRule="evenodd"
         />
         <Path
-          d="M99.74 54.56Q99.62 82.19 94.37 91h10.74z"
-          fillOpacity={0.1}
+          d="M95.74 54.44q-.12 27.61-5.37 36.43h10.74z"
+          fill="#222425"
           fillRule="evenodd"
         />
         <Path
-          data-name="Clothes-Front"
-          d="M89.46 27.94q24.8 24.29 28.73 68.66h-17.53q2.73-37.36-14.23-66z"
-          fillOpacity={0.1}
+          fill="#131415"
           fillRule="evenodd"
-        />
-        <Path
-          fill="#fff"
-          fillOpacity={0.2}
-          fillRule="evenodd"
-          d="M95.72 76.51l-11.62-5.4v5.4h11.62z"
+          d="M92.72 76.51l-11.62-5.4v5.4h11.62z"
         />
       </Symbol>
       <Symbol

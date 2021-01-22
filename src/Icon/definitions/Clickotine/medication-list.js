@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Medication_List({
+function MedicationList({
   color,
   width,
   height,
@@ -25,4 +25,4 @@ function Medication_List({
   );
 }
 
-export default Medication_List;
+export default MedicationList;

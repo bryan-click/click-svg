@@ -2,52 +2,52 @@
 import { ICON_COLOR } from "./shared";
 
 // 🧩 Iconography
-import Admin from "./Admin";
-import Alert from "./Alert";
-import Calendar from "./Calendar";
-import Check from "./Check";
-import Chevron_Down from "./Chevron_Down";
-import Chevron_Left from "./Chevron_Left";
-import Chevron_Right from "./Chevron_Right";
-import Chevron_Up from "./Chevron_Up";
-import Circle_Dot from "./Circle_Dot";
-import Circle_Hollow from "./Circle_Hollow";
-import Circle from "./Circle";
-import Close from "./Close";
-import Eye_Close from "./Eye_Close";
-import Eye_Open from "./Eye_Open";
-import Graph_Line from "./Graph_Line";
-import Home from "./Home";
-import Phone from "./Phone";
-import Square_Hollow from "./Square_Hollow";
-import Square from "./Square";
-import Star_Hollow from "./Star_Hollow";
-import Star from "./Star";
-import Supporter from "./Supporter";
-import Tools from "./Tools";
-import User from "./User";
+import Admin from "./admin";
+import Alert from "./alert";
+import Calendar from "./calendar";
+import Check from "./check";
+import ChevronDown from "./chevron-down";
+import ChevronLeft from "./chevron-left";
+import ChevronRight from "./chevron-right";
+import ChevronUp from "./chevron-up";
+import CircleDot from "./circle-dot";
+import CircleHollow from "./circle-hollow";
+import Circle from "./circle";
+import Close from "./close";
+import EyeClose from "./eye-close";
+import EyeOpen from "./eye-open";
+import GraphLine from "./graph-line";
+import Home from "./home";
+import Phone from "./phone";
+import SquareHollow from "./square-hollow";
+import Square from "./square";
+import StarHollow from "./star-hollow";
+import Star from "./star";
+import Supporter from "./supporter";
+import Tools from "./tools";
+import User from "./user";
 
 export {
   Admin,
   Alert,
   Calendar,
   Check,
-  Chevron_Down,
-  Chevron_Left,
-  Chevron_Right,
-  Chevron_Up,
-  Circle_Hollow,
-  Circle_Dot,
+  ChevronDown,
+  ChevronLeft,
+  ChevronRight,
+  ChevronUp,
+  CircleHollow,
+  CircleDot,
   Circle,
   Close,
-  Eye_Close,
-  Eye_Open,
-  Graph_Line,
+  EyeClose,
+  EyeOpen,
+  GraphLine,
   Home,
   Phone,
-  Square_Hollow,
+  SquareHollow,
   Square,
-  Star_Hollow,
+  StarHollow,
   Star,
   Supporter,
   Tools,
@@ -55,23 +55,25 @@ export {
 };
 
 // 🧩 Iconography Clickotine®
-import Breathing from "./Clickotine/Breathing";
-import Cardio from "./Clickotine/Cardio";
-import Cigarette from "./Clickotine/Cigarette";
-import Dosage from "./Clickotine/Dosage";
-import Journal from "./Clickotine/Journal";
-import Kit from "./Clickotine/Kit";
-import Lungs from "./Clickotine/Lungs";
-import Medication_List from "./Clickotine/Medication_List";
-import Medication from "./Clickotine/Medication";
-import Mission from "./Clickotine/Mission";
-import NRT_Gum from "./Clickotine/NRT_Gum";
-import NRT_Lozenge from "./Clickotine/NRT_Lozenge";
-import NRT_Patch from "./Clickotine/NRT_Patch";
-import Outdoors from "./Clickotine/Outdoors";
-import Quit_Aids from "./Clickotine/Quit_Aids";
-import Target from "./Clickotine/Target";
-import Trophy from "./Clickotine/Trophy";
+import {
+  Breathing,
+  Cigarette,
+  Cardio,
+  Dosage,
+  Journal,
+  Kit,
+  Lungs,
+  MedicationList,
+  Medication,
+  Mission,
+  NRTGum,
+  NRTLozenge,
+  NRTPatch,
+  Outdoors,
+  QuitAids,
+  Target,
+  Trophy
+} from "./Clickotine";
 
 export {
   Breathing,
@@ -81,14 +83,14 @@ export {
   Journal,
   Kit,
   Lungs,
-  Medication_List,
+  MedicationList,
   Medication,
   Mission,
-  NRT_Gum,
-  NRT_Lozenge,
-  NRT_Patch,
+  NRTGum,
+  NRTLozenge,
+  NRTPatch,
   Outdoors,
-  Quit_Aids,
+  QuitAids,
   Target,
   Trophy
 };

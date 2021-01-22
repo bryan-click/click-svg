@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Circle_Hollow({ color, width, height, viewBox, preserveAspectRatio }) {
+function CircleDot({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -12,11 +12,11 @@ function Circle_Hollow({ color, width, height, viewBox, preserveAspectRatio }) {
       viewBox={viewBox || "0 0 24 24"}
     >
       <Path
-        d="M5,19a9.85,9.85,0,1,1,7,2.89A9.8,9.8,0,0,1,5,19Zm19-7A12,12,0,1,0,12,24,12,12,0,0,0,24,12Z"
+        d="M14,12a2,2,0,1,1-2-2A2,2,0,0,1,14,12Z"
         fill={color || "currentColor"}
       />
     </Svg>
   );
 }
 
-export default Circle_Hollow;
+export default CircleDot;
