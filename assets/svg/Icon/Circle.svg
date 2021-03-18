@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
   <g id="Circle">
-    <path d="M24,12A12,12,0,1,1,12,0,12,12,0,0,1,24,12Z" style="fill-rule: evenodd"/>
+    <path d="M24,12A12,12,0,1,1,12,0,12,12,0,0,1,24,12Z" fill-rule="evenodd"/>
   </g>
 </svg>

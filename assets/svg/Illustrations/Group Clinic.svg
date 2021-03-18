@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
   <defs>
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
-      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+      <rect id="Rect" data-name="Rect" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_4-2" data-name="Blob 4" viewBox="0 0 282 205">
+    <symbol id="Blob_4" data-name="Blob 4" viewBox="0 0 282 205">
       <path id="Blob" d="M222.92,188.31c68.7-40.08,70.86-73.58,40.13-116.36S167.2,38.38,116.57,7.77,0,41.87,0,117.41,154.21,228.39,222.92,188.31Z" fill="#fff1e8" fill-rule="evenodd"/>
     </symbol>
     <symbol id="Plant_2" data-name="Plant 2" viewBox="0 0 50 130">
@@ -19,26 +19,26 @@
     <symbol id="Woman_Healthworker_Standing" data-name="Woman Healthworker Standing" viewBox="0 0 104.36 170.31">
       <g id="Human">
         <g id="Group">
-          <polygon id="Leg-_skin_" data-name="Leg-[skin]" points="41.07 75.31 55.69 125.48 62.57 163.15 69.47 163.15 62.58 75.31 41.07 75.31" fill="#784931" fill-rule="evenodd"/>
+          <polygon id="Leg-skin" data-name="Leg-[skin]" points="41.07 75.31 55.69 125.48 62.57 163.15 69.47 163.15 62.58 75.31 41.07 75.31" fill="#784931" fill-rule="evenodd"/>
           <polygon id="Shadow" points="41.07 75.31 55.69 125.48 62.57 163.15 69.47 163.15 62.58 75.31 41.07 75.31" fill-opacity="0.1" fill-rule="evenodd"/>
-          <path id="Leg-_skin_2" data-name="Leg-[skin]" d="M34.3,75.31c1,26.06.62,40.28.39,42.65s-1.54,18.23-10.42,46h7.22c11.77-26.64,15.88-42.5,17.22-46s5.34-17.72,11.16-42.65Z" fill="#784931" fill-rule="evenodd"/>
+          <path id="Leg-skin" data-name="Leg-[skin]" d="M34.3,75.31c1,26.06.62,40.28.39,42.65s-1.54,18.23-10.42,46h7.22c11.77-26.64,15.88-42.5,17.22-46s5.34-17.72,11.16-42.65Z" fill="#784931" fill-rule="evenodd"/>
           <path id="Pant" d="M40.67,75.31Q46.38,101.2,60.44,158H70.56c.75-38.86-2.43-64.43-7.94-82.68Z" fill-rule="evenodd"/>
-          <path id="Pant-2" data-name="Pant" d="M34.32,75.31c1,26.06-1.59,51.74-9.65,83.07H35.49a350.06,350.06,0,0,0,26-83.07Z" fill="#222425" fill-rule="evenodd"/>
-          <g id="Left-_shoe_" data-name="Left-[shoe]">
+          <path id="Pant" data-name="Pant" d="M34.32,75.31c1,26.06-1.59,51.74-9.65,83.07H35.49a350.06,350.06,0,0,0,26-83.07Z" fill="#222425" fill-rule="evenodd"/>
+          <g id="Left-shoe" data-name="Left-[shoe]">
             <path id="Shoe" d="M23.47,169.12l.4-6.36c2.32.67,5.23.41,8.73-.8a33.19,33.19,0,0,0,12.85,5.17,2.1,2.1,0,0,1,1.64,2.46l0,.16-.16.56H24.26Z" fill="#e4e4e4" fill-rule="evenodd"/>
           </g>
           <g id="Right-_shoe_" data-name="Right-[shoe]">
-            <path id="Shoe-2" data-name="Shoe" d="M61.07,169.12l.4-6.36c2.32.67,5.23.41,8.73-.8a33.19,33.19,0,0,0,12.85,5.17,2.1,2.1,0,0,1,1.64,2.46s0,.11,0,.16l-.16.56H61.86Z" fill="#e4e4e4" fill-rule="evenodd"/>
+            <path id="Shoe" data-name="Shoe" d="M61.07,169.12l.4-6.36c2.32.67,5.23.41,8.73-.8a33.19,33.19,0,0,0,12.85,5.17,2.1,2.1,0,0,1,1.64,2.46s0,.11,0,.16l-.16.56H61.86Z" fill="#e4e4e4" fill-rule="evenodd"/>
           </g>
         </g>
         <g id="Head_Front_Chongo" data-name="Head/Front/Chongo">
           <g id="Head">
-            <path id="Head-_skin_" data-name="Head-[skin]" d="M59.77,15.29c2.47,4.57,2.17,16.16-1,17-1.27.32-4-.48-6.75-2.13l1.73,12.17H43.5L47,26A11.46,11.46,0,0,1,44,17.78C44.59,8.73,57.29,10.72,59.77,15.29Z" fill="#784931" fill-rule="evenodd"/>
+            <path id="Head-skin" data-name="Head-skin" d="M59.77,15.29c2.47,4.57,2.17,16.16-1,17-1.27.32-4-.48-6.75-2.13l1.73,12.17H43.5L47,26A11.46,11.46,0,0,1,44,17.78C44.59,8.73,57.29,10.72,59.77,15.29Z" fill="#784931" fill-rule="evenodd"/>
           </g>
           <path id="hair" d="M55.72,10.31a13.46,13.46,0,0,0-4.28-.47A7.16,7.16,0,0,0,52,6.15a11,11,0,0,0-1.21-3.34,4.54,4.54,0,0,0-.89-1.38A3,3,0,0,0,48.41.66a3.87,3.87,0,0,0-1.66,0c-.24,0-.46.16-.7.23s-.36-.09-.54-.24A3,3,0,0,0,43.93,0a4.13,4.13,0,0,0-1.81.22,3.43,3.43,0,0,0-1.5,1,2.37,2.37,0,0,0-.45.68c-.05.11-.05.17-.16.21s-.21,0-.31.06a3.93,3.93,0,0,0-2.24,2,6.31,6.31,0,0,0-.35,2.63,11.34,11.34,0,0,0,2,5A6.19,6.19,0,0,0,42.3,13.6a9.31,9.31,0,0,0-1.69,3.13,15.83,15.83,0,0,0-.77,3.8A12.34,12.34,0,0,0,40,24.27a4.08,4.08,0,0,0,1.83,2.65,8.54,8.54,0,0,0,1.41.65,8.42,8.42,0,0,0,1.45.46,2.93,2.93,0,0,0,2.76-.58,5.5,5.5,0,0,0,.74-.93c.06-.12.11-.2,0-.31a2.22,2.22,0,0,0-.39-.36,3.64,3.64,0,0,1-1.3-2.41,2.58,2.58,0,0,1,1.13-2.7c1.2-.54,2.52.08,3.58.65a5.77,5.77,0,0,1,2.84-3.74c1.62-.81,3.47-.9,5.12-1.59a3,3,0,0,0,1.19-.75,1.41,1.41,0,0,0,.34-.56.88.88,0,0,0-.23-.69A13.05,13.05,0,0,0,55.72,10.31Z" fill="#191847" fill-rule="evenodd"/>
         </g>
-        <g id="Body_Long-Sleeve-1" data-name="Body/Long-Sleeve-1">
-          <g id="Group-2" data-name="Group">
+        <g id="Body_Long-Sleeve" data-name="Body/Long-Sleeve-1">
+          <g id="Group" data-name="Group">
             <path id="Arms-_skin_" data-name="Arms-[skin]" d="M19.78,65.61l6.92,1.13q-10.15,21.06-12,24.73l-.09.18c-.13.24-.22.42-.28.51-1.25,2.08.11,5.75.63,7.7-2.82.76-1.85-3.57-5.42-2.55-3.26.94-6,3.13-9.15.41-.39-.33-.7-1.41.57-2,3.15-1.51,7.8-4.27,8.53-5.31q1.5-2.12,10.34-24.79ZM92.56,53.88q4.92-6.43,5.59-5.44c.67,1-.62,2-.28,2.71s2.69.54,4.91.25,1.62.74,1.11,1.26a33.91,33.91,0,0,1-8.31,3.85h0l-11.69,8-3.42-4.87Z" fill="#784931" fill-rule="evenodd"/>
             <path id="Coat-Back" d="M43.91,46.18l8.93-8.71c6,4.09,8.69,14.4,15.77,17.32,8.18,3.38,14.76,1.2,22.81-3l4,6.48c-9.7,8.34-25.62,13.36-36,6.74C56,62.77,46.33,50,43.91,46.18Z" fill="#c5cfd6" fill-rule="evenodd"/>
             <path id="Shirt" d="M33.79,78.57q18.43,2.28,29.07.51c.88-.15,1-1.61.66-2.62-6.06-15.61-10.16-29.21-10-40-1.17.56-3.2.62-6.1.15C39.46,47.6,35.65,60.27,33.79,78.57Z" fill="#25927e" fill-rule="evenodd"/>
@@ -48,44 +48,44 @@
       </g>
     </symbol>
     <symbol id="Nonbinary_Healthworker_Clipboard" data-name="Nonbinary Healthworker Clipboard" viewBox="0 0 87.63 177.35">
-      <g id="Human-2" data-name="Human">
+      <g id="Human" data-name="Human">
         <g id="Head_Front" data-name="Head/Front">
-          <g id="Head-2" data-name="Head">
-            <path id="Head-_skin_2" data-name="Head-[skin]" d="M39.42,7.16c-2.57,4.79-2.26,17,1.06,17.8,1.32.34,4.15-.49,7-2.23L45.69,35.49H56.33L52.67,18.41a12,12,0,0,0,3.2-8.64C55.2.28,42,2.37,39.42,7.16Z" fill="#b28b67" fill-rule="evenodd"/>
+          <g id="Head" data-name="Head">
+            <path id="Head-skin" data-name="Head-skin" d="M39.42,7.16c-2.57,4.79-2.26,17,1.06,17.8,1.32.34,4.15-.49,7-2.23L45.69,35.49H56.33L52.67,18.41a12,12,0,0,0,3.2-8.64C55.2.28,42,2.37,39.42,7.16Z" fill="#b28b67" fill-rule="evenodd"/>
           </g>
-          <path id="Hair-2" data-name="Hair" d="M53.49,20.54c1.33-5.94,5.14-10,4.56-12.65A4.05,4.05,0,0,0,55,4.58Q53.65-.68,46.56.1C39.46.89,35.13,3.84,37,10.32c1.72,0,3.8-.62,6.67.45.91.33,1.56,1.38,1.95,3.14h1.29c1.26-2.09,2.5-2.85,3.73-2.3s1.5,1.9.83,4l.64,4.9Z" fill="#191847" fill-rule="evenodd"/>
+          <path id="Hair" data-name="Hair" d="M53.49,20.54c1.33-5.94,5.14-10,4.56-12.65A4.05,4.05,0,0,0,55,4.58Q53.65-.68,46.56.1C39.46.89,35.13,3.84,37,10.32c1.72,0,3.8-.62,6.67.45.91.33,1.56,1.38,1.95,3.14h1.29c1.26-2.09,2.5-2.85,3.73-2.3s1.5,1.9.83,4l.64,4.9Z" fill="#191847" fill-rule="evenodd"/>
         </g>
         <g id="Group-3" data-name="Group">
           <polygon id="Leg" points="61.85 67.35 45.17 125.91 32.99 169.07 24.11 169.07 37.05 67.35 61.85 67.35" fill="#222425" fill-rule="evenodd"/>
-          <path id="Leg-2" data-name="Leg" d="M66.26,67.35c.38,30.18,1.7,46.64,2.1,49.39s6.52,20.18,18.35,52.33H77.53q-22.59-46.26-25.22-52.33c-1.75-4-7.16-20.51-15.31-49.39Z" fill="#323337" fill-rule="evenodd"/>
-          <g id="Left-_shoe_2" data-name="Left-[shoe]">
-            <path id="Shoe-3" data-name="Shoe" d="M87.63,176l-.46-7.36q-4,1.17-10-.92a38.56,38.56,0,0,1-15.2,6.07,2,2,0,0,0-1.59,2.34c0,.06,0,.11,0,.17l.31,1.08h26Z" fill="#e4e4e4" fill-rule="evenodd"/>
+          <path id="Leg" data-name="Leg" d="M66.26,67.35c.38,30.18,1.7,46.64,2.1,49.39s6.52,20.18,18.35,52.33H77.53q-22.59-46.26-25.22-52.33c-1.75-4-7.16-20.51-15.31-49.39Z" fill="#323337" fill-rule="evenodd"/>
+          <g id="Left-shoe" data-name="Left-[shoe]">
+            <path id="Shoe" data-name="Shoe" d="M87.63,176l-.46-7.36q-4,1.17-10-.92a38.56,38.56,0,0,1-15.2,6.07,2,2,0,0,0-1.59,2.34c0,.06,0,.11,0,.17l.31,1.08h26Z" fill="#e4e4e4" fill-rule="evenodd"/>
           </g>
-          <g id="Right-_shoe_2" data-name="Right-[shoe]">
-            <path id="Shoe-4" data-name="Shoe" d="M34.24,176l-.46-7.36q-4,1.17-10-.92a38.56,38.56,0,0,1-15.2,6.07,2,2,0,0,0-1.59,2.34c0,.06,0,.11,0,.17l.31,1.08h26Z" fill="#e4e4e4" fill-rule="evenodd"/>
+          <g id="Right-hoe" data-name="Right-shoe">
+            <path id="Shoe" data-name="Shoe" d="M34.24,176l-.46-7.36q-4,1.17-10-.92a38.56,38.56,0,0,1-15.2,6.07,2,2,0,0,0-1.59,2.34c0,.06,0,.11,0,.17l.31,1.08h26Z" fill="#e4e4e4" fill-rule="evenodd"/>
           </g>
         </g>
         <g id="Group-4" data-name="Group">
-          <path id="Arms-_skin_2" data-name="Arms-[skin]" d="M23.45,67.25,9.94,78.71A38,38,0,0,0,.53,83.28c-.57.6-1.24,1.78,1.29,1.41S7,84,7.43,84.88s-1,2-.26,3.1q.78,1.13,6.28-6.33l13.7-6.83Z" fill="#b28b67" fill-rule="evenodd"/>
-          <path id="Coat-Back-2" data-name="Coat-Back" d="M51.51,30l-4.92-1.62C39.93,45,30,61.1,13.38,74.71l4.11,7.08c14.59-8.59,28.41-15.27,34-28.17C53.39,49.29,51.66,35.15,51.51,30Z" fill="#c5cfd6" fill-rule="evenodd"/>
-          <path id="Shirt-2" data-name="Shirt" d="M68.38,76.83q-21.1,2.23-33.23,0c-1-.19-1.16-1.86-.7-3,7.23-17.72,12.19-33.18,12.19-45.48q2,1,7,.3C62.52,41.33,66.62,55.88,68.38,76.83Z" fill="#313ae7" fill-rule="evenodd"/>
+          <path id="Arms-skin" data-name="Arms-skin" d="M23.45,67.25,9.94,78.71A38,38,0,0,0,.53,83.28c-.57.6-1.24,1.78,1.29,1.41S7,84,7.43,84.88s-1,2-.26,3.1q.78,1.13,6.28-6.33l13.7-6.83Z" fill="#b28b67" fill-rule="evenodd"/>
+          <path id="Coat-Back" data-name="Coat-Back" d="M51.51,30l-4.92-1.62C39.93,45,30,61.1,13.38,74.71l4.11,7.08c14.59-8.59,28.41-15.27,34-28.17C53.39,49.29,51.66,35.15,51.51,30Z" fill="#c5cfd6" fill-rule="evenodd"/>
+          <path id="Shirt" data-name="Shirt" d="M68.38,76.83q-21.1,2.23-33.23,0c-1-.19-1.16-1.86-.7-3,7.23-17.72,12.19-33.18,12.19-45.48q2,1,7,.3C62.52,41.33,66.62,55.88,68.38,76.83Z" fill="#313ae7" fill-rule="evenodd"/>
           <path id="Clothes-Body" d="M85.67,124.1H40.09c8.43-22.53,11.15-91.43,12-96.52H56.5C65.62,48.64,84.11,91.54,85.67,124.1Z" fill="#dde3e9" fill-rule="evenodd"/>
           <g id="Clipboard">
             <path id="Rectangle" d="M49.19,49.49l-16,5.81A2,2,0,0,0,32,57.87l8.2,22.55a2,2,0,0,0,2.57,1.2l16-5.82A2,2,0,0,0,60,73.24L51.75,50.69A2,2,0,0,0,49.19,49.49Z" fill="#f3a17a" fill-rule="evenodd"/>
-            <path id="Rectangle-Copy" d="M49.64,54.76,36.49,59.55a1,1,0,0,0-.6,1.28l6.5,17.86a1,1,0,0,0,1.28.59L56.83,74.5a1,1,0,0,0,.59-1.29L50.93,55.36A1,1,0,0,0,49.64,54.76Z" fill="#fff" fill-rule="evenodd"/>
-            <path id="Rectangle-2" data-name="Rectangle" d="M49,58.7l-9.39,3.42A1,1,0,0,0,39,63.4h0a1,1,0,0,0,1.28.6l9.4-3.42a1,1,0,0,0,.6-1.28h0A1,1,0,0,0,49,58.7Z" fill="#e4e4e4" fill-rule="evenodd"/>
-            <path id="Rectangle-Copy-2" d="M49.1,63.39l-6.57,2.39a1,1,0,0,0-.6,1.28h0a1,1,0,0,0,1.28.6l6.58-2.39a1,1,0,0,0,.6-1.29h0A1,1,0,0,0,49.1,63.39Z" fill="#e4e4e4" fill-rule="evenodd"/>
-            <path id="Rectangle-Copy-3" d="M52.07,67.22l-9.39,3.42a1,1,0,0,0-.6,1.28h0a1,1,0,0,0,1.28.59l9.4-3.42a1,1,0,0,0,.6-1.28h0A1,1,0,0,0,52.07,67.22Z" fill="#e4e4e4" fill-rule="evenodd"/>
+            <path id="Rectangle" d="M49.64,54.76,36.49,59.55a1,1,0,0,0-.6,1.28l6.5,17.86a1,1,0,0,0,1.28.59L56.83,74.5a1,1,0,0,0,.59-1.29L50.93,55.36A1,1,0,0,0,49.64,54.76Z" fill="#fff" fill-rule="evenodd"/>
+            <path id="Rectangle" data-name="Rectangle" d="M49,58.7l-9.39,3.42A1,1,0,0,0,39,63.4h0a1,1,0,0,0,1.28.6l9.4-3.42a1,1,0,0,0,.6-1.28h0A1,1,0,0,0,49,58.7Z" fill="#e4e4e4" fill-rule="evenodd"/>
+            <path id="Rectangle" d="M49.1,63.39l-6.57,2.39a1,1,0,0,0-.6,1.28h0a1,1,0,0,0,1.28.6l6.58-2.39a1,1,0,0,0,.6-1.29h0A1,1,0,0,0,49.1,63.39Z" fill="#e4e4e4" fill-rule="evenodd"/>
+            <path id="Rectangle" d="M52.07,67.22l-9.39,3.42a1,1,0,0,0-.6,1.28h0a1,1,0,0,0,1.28.59l9.4-3.42a1,1,0,0,0,.6-1.28h0A1,1,0,0,0,52.07,67.22Z" fill="#e4e4e4" fill-rule="evenodd"/>
           </g>
           <path id="Arm" d="M50.13,79.63a34.68,34.68,0,0,0-7.71-2.15c-1.44-.17-8.64-2.64-11.08-4.3s-.28-6.71,2.13-8.31,1.44,5.51,2.83,5c2.27-.76.57-2.58,2.18-3.25s3.43,4.83,6.15,5.36c1.21.24,3.43.86,6.66,1.88Z" fill="#b28b67" fill-rule="evenodd"/>
-          <path id="Coat-Front-2" data-name="Coat-Front" d="M55.75,27.93Q81.34,41,86.88,60.41C90.43,72.86,61.75,83.28,46.63,82L44.49,69.39c26.34-2.17,29.16-6.13,26.94-11q-4.2-9.3-14.14-9Z" fill="#dde3e9" fill-rule="evenodd"/>
+          <path id="Coat-Front" data-name="Coat-Front" d="M55.75,27.93Q81.34,41,86.88,60.41C90.43,72.86,61.75,83.28,46.63,82L44.49,69.39c26.34-2.17,29.16-6.13,26.94-11q-4.2-9.3-14.14-9Z" fill="#dde3e9" fill-rule="evenodd"/>
         </g>
       </g>
     </symbol>
   </defs>
   <g id="Group_Clinic" data-name="Group Clinic">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="282" height="205" transform="translate(22.5 7)" xlink:href="#Blob_4-2"/>
+    <use width="282" height="205" transform="translate(22.5 7)" xlink:href="#Blob_4"/>
     <use width="50" height="130" transform="translate(37 59)" xlink:href="#Plant_2"/>
     <use width="104.36" height="170.31" transform="translate(59.53 39.69)" xlink:href="#Woman_Healthworker_Standing"/>
     <use width="87.63" height="177.35" transform="translate(173.37 32.65)" xlink:href="#Nonbinary_Healthworker_Clipboard"/>

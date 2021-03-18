@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
   <defs>
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
-      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+      <rect id="Rect" data-name="Rect" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_7-2" data-name="Blob 7" viewBox="0 0 282.25 202.24">
+    <symbol id="Blob_7" data-name="Blob 7" viewBox="0 0 282.25 202.24">
       <path id="Blob" d="M.57,118.7c-6.4-40,42.49-36.08,76-16.38s54.09,18.67,75.37,47.42-18.57,53.89-52.68,52.44S7,158.71.57,118.7ZM172.94,0C217,0,282.25,21.23,282.25,90.11S182,155,153.53,116.31s-101.45-55.58-88.34-81S128.84,0,172.94,0Z" fill="#fff1e8" fill-rule="evenodd"/>
     </symbol>
     <symbol id="Paperplane" data-name="Paperplane" viewBox="0 0 140 130">
@@ -27,7 +27,7 @@
   </defs>
   <g id="Coummunication_Outbound" data-name="Coummunication Outbound">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="282.25" height="202.24" transform="translate(22.37 7.88)" xlink:href="#Blob_7-2"/>
+    <use width="282.25" height="202.24" transform="translate(22.37 7.88)" xlink:href="#Blob_7"/>
     <use width="140" height="130" transform="translate(93.5 44)" xlink:href="#Paperplane"/>
     <use width="132.75" height="120.94" transform="translate(97.13 48.53)" xlink:href="#Sparkles"/>
   </g>

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { View } from "react-native";
 import Svg, { Path, G } from "react-native-svg";
 
-function Alert({ color, width, height, viewBox, preserveAspectRatio }) {
+function Check({ color, width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       fill={color || "currentColor"}
@@ -19,4 +19,4 @@ function Alert({ color, width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default Alert;
+export default Check;

@@ -21,6 +21,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
 // 🥽 Click Design System - SVG Components
 import { Icon } from "./src/Icon";
+import { IconStack } from "./src/IconStack";
 import { Illustration } from "./src/Illustration";
 
 // 🧩 Icons
@@ -76,6 +77,63 @@ function IconScreen() {
   return (
     <Stack.Navigator>
       <Stack.Screen name="🧩 Icons" component={Icons} />
+    </Stack.Navigator>
+  );
+}
+
+// 🎀 Icon Stack
+function IconStacks({ navigation }) {
+  const IconStackList = () => {
+    const iconstacks = IconStack.Types;
+    const stack = Object.entries(iconstacks).map(([key, value]) => {
+      return (
+        <View key={key} style={{ alignItems: "center", marginBottom: 48 }}>
+          <IconStack type={value} />
+          <View
+            style={{
+              alignItems: "center",
+              paddingVertical: 4,
+              paddingHorizontal: 8,
+              marginTop: 8,
+              borderRadius: 3,
+              backgroundColor: "black"
+            }}
+          >
+            <Text
+              id={key}
+              style={{
+                color: "salmon",
+                fontSize: 10,
+                textAlign: "center"
+              }}
+            >
+              {`<IconStack type="${value}" />`}
+            </Text>
+          </View>
+        </View>
+      );
+    });
+    return <View>{stack}</View>;
+  };
+  return (
+    <SafeAreaView style={styles.safeAreaView}>
+      <ScrollView style={styles.scrollView}>
+        <View
+          style={{
+            alignItems: "center"
+          }}
+        >
+          <IconStackList />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+
+function IconStackScreen() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="🎀 Icon Stack" component={IconStacks} />
     </Stack.Navigator>
   );
 }
@@ -148,6 +206,7 @@ function App() {
       <Tab.Navigator>
         <Tab.Screen name="🖼 Illustrations" component={IllustrationScreen} />
         <Tab.Screen name="🧩 Icons" component={IconScreen} />
+        <Tab.Screen name="🎀 Icon Stacks" component={IconStackScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );

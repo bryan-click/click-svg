@@ -12,7 +12,7 @@ function CircleDot({ color, width, height, viewBox, preserveAspectRatio }) {
       viewBox={viewBox || "0 0 24 24"}
     >
       <Path
-        d="M14,12a2,2,0,1,1-2-2A2,2,0,0,1,14,12Z"
+        d="M16,12a4,4,0,1,1-4-4A4,4,0,0,1,16,12Z"
         fill={color || "currentColor"}
       />
     </Svg>

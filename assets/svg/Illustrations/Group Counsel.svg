@@ -1,20 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
   <defs>
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
-      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+      <rect data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
     <symbol id="Blob_1" data-name="Blob 1" viewBox="0 0 293 184">
-      <path id="Blob" d="M189.42,176.39C269.66,152.28,327,44.81,270,9.79S149.57,44.94,96.4,44.94,0,57.88,0,111,109.17,200.51,189.42,176.39Z" fill="#fff1e8" fill-rule="evenodd"/>
+      <path d="M189.42,176.39C269.66,152.28,327,44.81,270,9.79S149.57,44.94,96.4,44.94,0,57.88,0,111,109.17,200.51,189.42,176.39Z" fill="#fff1e8" fill-rule="evenodd"/>
     </symbol>
     <symbol id="Wall_Shelf" data-name="Wall Shelf" viewBox="0 0 100 42">
-      <g id="Wall_Shelf-3" data-name="Wall Shelf">
-        <g id="Picture_Frame" data-name="Picture Frame">
-          <path id="Frame" d="M42.43,0H40.72L37.79,29.83H60.94L63.87,0Zm1.45,25.83H42.21L44.35,4H59.46L57.32,25.83Z" fill="#ffcbab"/>
-          <polygon id="Picture" points="43.33 24.5 56.38 24.5 58.33 5.33 45.29 5.33 43.33 24.5" fill="#ffcbab" fill-rule="evenodd"/>
-        </g>
-        <g id="Picture_Frame-2" data-name="Picture Frame">
-          <path id="Frame-2" data-name="Frame" d="M67.83,8.33h-2l-2.21,21.5H91.67l2.21-21.5Zm2.22,17.5h-2l1.39-13.5h20l-1.39,13.5Z" fill="#ffcbab"/>
-          <polygon id="Picture-2" data-name="Picture" points="86.83 13.83 85.73 24.67 71 24.67 72.1 13.83 86.83 13.83" fill="#ffad7a" fill-rule="evenodd"/>
+      <g data-name="Wall Shelf">
+        <g id="Picture_Frame">
+          <path d="M42.43,0H40.72L37.79,29.83H60.94L63.87,0Zm1.45,25.83H42.21L44.35,4H59.46L57.32,25.83Z" fill="#ffcbab"/>
+          <polygon points="43.33 24.5 56.38 24.5 58.33 5.33 45.29 5.33 43.33 24.5" fill="#ffcbab" fill-rule="evenodd"/>
+          <path d="M67.83,8.33h-2l-2.21,21.5H91.67l2.21-21.5Zm2.22,17.5h-2l1.39-13.5h20l-1.39,13.5Z" fill="#ffcbab"/>
+          <polygon points="86.83 13.83 85.73 24.67 71 24.67 72.1 13.83 86.83 13.83" fill="#ffad7a" fill-rule="evenodd"/>
         </g>
         <g id="Book">
           <path d="M28,22a1.25,1.25,0,1,1,0-2.5h7.77l0,.05V22l0,.05H28m8.66-3.33H13.42a2.5,2.5,0,1,0,0,5H36.67v-5" fill="#ffae7c"/>
@@ -25,24 +23,19 @@
           <path d="M20,25.75a1.36,1.36,0,0,0-1.45-1.25H8.33V27H18.55A1.36,1.36,0,0,0,20,25.75Z" fill="#ffcbab"/>
         </g>
         <g id="Shelf">
-          <g id="Shade_2" data-name="Shade 2">
             <rect x="85.83" y="28.67" width="14.17" height="3.33" fill="#ffa770"/>
             <polygon points="27.5 42 27.5 32 21.06 32 27.5 42" fill="#ffa770" fill-rule="evenodd"/>
             <polygon points="76.67 42 76.67 32 70.23 32 76.67 42" fill="#ffa770" fill-rule="evenodd"/>
-          </g>
-          <polyline id="Shade_1" data-name="Shade 1" points="85.83 28.67 0 28.67 0 32 17.5 32 23.94 42 27.5 42 21.06 32 66.67 32 73.11 42 76.67 42 70.23 32 85.83 32 85.83 28.67" fill="#ffbf97"/>
-        </g>
+          <polyline points="85.83 28.67 0 28.67 0 32 17.5 32 23.94 42 27.5 42 21.06 32 66.67 32 73.11 42 76.67 42 70.23 32 85.83 32 85.83 28.67" fill="#ffbf97"/>
       </g>
     </symbol>
     <symbol id="Clock" data-name="Clock" viewBox="0 0 33.08 30">
-      <g>
         <path d="M18.08,0c-.52,0-1,0-1.54.08h.22a14.92,14.92,0,0,1,7.72,3.28h0l0,0a15,15,0,0,1-8,26.51c.5,0,1,.08,1.54.08a15,15,0,0,0,0-30" fill="#ffb07e"/>
         <path d="M15,26.15a11.15,11.15,0,0,1,0-22.3c.29,0,.57,0,.86,0h0l.37,0a11.16,11.16,0,0,1,9.87,10,8.71,8.71,0,0,1,0,1V15a9.29,9.29,0,0,1,0,1.06,11.16,11.16,0,0,1-9.87,10l-.37,0A11.23,11.23,0,0,1,6.15,15h0a11.23,11.23,0,0,0,9.71,11.11c-.29,0-.57,0-.86,0M15,0a15,15,0,0,0,0,30c.52,0,1,0,1.54-.08a15,15,0,0,0,8-26.51l0,0h0A14.92,14.92,0,0,0,16.76.1h-.22C16,0,15.52,0,15,0" fill="#ffbe95"/>
         <path d="M15,3.85a11.15,11.15,0,0,0,0,22.3c.29,0,.57,0,.86,0A11.23,11.23,0,0,1,6.15,15h0A11.23,11.23,0,0,1,15.86,3.89c-.29,0-.57,0-.86,0" fill="#ffb181"/>
         <path d="M17.13,14.72,14.47,8.88l1.83-.83,2.3,5.07.66-.72,1.48,1.35L19.5,15.1l.64,1.41-1.82.83L18,16.7,12.28,23,10.8,21.63l6.33-6.91M15.86,3.89h0A11.23,11.23,0,0,0,6.15,15h0a11.23,11.23,0,0,0,9.71,11.11l.37,0a11.16,11.16,0,0,0,9.87-10,9.29,9.29,0,0,0,0-1.06V15a8.71,8.71,0,0,0,0-1,11.16,11.16,0,0,0-9.87-10l-.37,0" fill="#ffc6a2"/>
         <path d="M17.13,14.72,10.8,21.63,12.28,23,18,16.7l-.9-2m2.13-2.32-.66.72.9,2,1.24-1.35L19.26,12.4" fill="#ffb181"/>
         <polyline points="16.3 8.05 14.47 8.88 17.13 14.72 18.03 16.7 18.32 17.34 20.14 16.51 19.5 15.1 18.6 13.12 16.3 8.05" fill="#ffb181"/>
-      </g>
     </symbol>
     <symbol id="Office_chair" data-name="Office chair" viewBox="0 0 55.23 99.91">
       <g id="Office_chair-3" data-name="Office chair">

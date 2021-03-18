@@ -3,12 +3,18 @@ import PropTypes from "prop-types";
 import { View } from "react-native";
 import Svg from "react-native-svg";
 import { Types } from "./config";
+
 // 🧩 Iconography Click Design System
 import {
   Admin,
   Alert,
+  ArrowLeft,
+  ArrowRight,
+  BookmarkHollow,
+  Bookmark,
   Calendar,
   Check,
+  Camera,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
@@ -21,35 +27,64 @@ import {
   EyeOpen,
   GraphLine,
   Home,
+  Info,
+  Options,
   Phone,
   SquareHollow,
   Square,
   StarHollow,
   Star,
   Supporter,
+  ThumbsDown,
+  ThumbsUp,
+  Timer,
   Tools,
   User
 } from "./definitions";
 
 // 🧩 Iconography Clickotine®
 import {
+  AlarmClock,
+  Apple,
+  BandAid,
+  Bar,
+  Bottle,
   Breathing,
   Cardio,
+  Carrot,
   Cigarette,
+  Coach,
+  Coffee,
+  Community,
   Dosage,
+  Drinking,
+  Driving,
+  Exercise,
+  Family,
   Journal,
   Kit,
+  Love,
   Lungs,
+  Meal,
   MedicationList,
   Medication,
+  Mindful,
   Mission,
+  Nightlife,
   NRTGum,
   NRTLozenge,
   NRTPatch,
   Outdoors,
   QuitAids,
+  Ribbon,
+  Snack,
   Target,
-  Trophy
+  Thinking,
+  Tooth,
+  Trophy,
+  Vape,
+  Walk,
+  Water
 } from "./definitions";
 
 import { ICON_COLOR } from "./definitions/shared";
@@ -81,87 +116,606 @@ class Icon extends Component {
   renderIcon(type) {
     switch (type) {
       case Types.ADMIN:
-        return <Admin color={this.props.color || ICON_COLOR} />;
+        return (
+          <Admin
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.ALERT:
-        return <Alert color={this.props.color || ICON_COLOR} />;
+        return (
+          <Alert
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.ARROW_LEFT:
+        return (
+          <ArrowLeft
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.ARROW_RIGHT:
+        return (
+          <ArrowRight
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.BOOKMARK_HOLLOW:
+        return (
+          <BookmarkHollow
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.BOOKMARK:
+        return (
+          <Bookmark
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CALENDAR:
-        return <Calendar color={this.props.color || ICON_COLOR} />;
+        return (
+          <Calendar
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.CAMERA:
+        return (
+          <Camera
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CHECK:
-        return <Check color={this.props.color || ICON_COLOR} />;
+        return (
+          <Check
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CHEVRON_DOWN:
-        return <ChevronDown color={this.props.color || ICON_COLOR} />;
+        return (
+          <ChevronDown
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CHEVRON_LEFT:
-        return <ChevronLeft color={this.props.color || ICON_COLOR} />;
+        return (
+          <ChevronLeft
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CHEVRON_RIGHT:
-        return <ChevronRight color={this.props.color || ICON_COLOR} />;
+        return (
+          <ChevronRight
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CHEVRON_UP:
-        return <ChevronUp color={this.props.color || ICON_COLOR} />;
+        return (
+          <ChevronUp
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CIRCLE_DOT:
-        return <CircleDot color={this.props.color || ICON_COLOR} />;
+        return (
+          <CircleDot
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CIRCLE_HOLLOW:
-        return <CircleHollow color={this.props.color || ICON_COLOR} />;
+        return (
+          <CircleHollow
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CIRCLE:
-        return <Circle color={this.props.color || ICON_COLOR} />;
+        return (
+          <Circle
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CLOSE:
-        return <Close color={this.props.color || ICON_COLOR} />;
+        return (
+          <Close
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.EYE_CLOSE:
-        return <EyeClose color={this.props.color || ICON_COLOR} />;
+        return (
+          <EyeClose
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.EYE_OPEN:
-        return <EyeOpen color={this.props.color || ICON_COLOR} />;
+        return (
+          <EyeOpen
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.GRAPH_LINE:
-        return <GraphLine color={this.props.color || ICON_COLOR} />;
+        return (
+          <GraphLine
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.HOME:
-        return <Home color={this.props.color || ICON_COLOR} />;
+        return (
+          <Home
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.INFO:
+        return (
+          <Info
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.OPTIONS:
+        return (
+          <Options
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.PHONE:
-        return <Phone color={this.props.color || ICON_COLOR} />;
+        return (
+          <Phone
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.SQUARE_HOLLOW:
-        return <SquareHollow color={this.props.color || ICON_COLOR} />;
+        return (
+          <SquareHollow
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.SQUARE:
-        return <Square color={this.props.color || ICON_COLOR} />;
+        return (
+          <Square
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.STAR_HOLLOW:
-        return <StarHollow color={this.props.color || ICON_COLOR} />;
+        return (
+          <StarHollow
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.STAR:
-        return <Star color={this.props.color || ICON_COLOR} />;
+        return (
+          <Star
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.SUPPORTER:
-        return <Supporter color={this.props.color || ICON_COLOR} />;
+        return (
+          <Supporter
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.THUMBS_DOWN:
+        return (
+          <ThumbsDown
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.THUMBS_UP:
+        return (
+          <ThumbsUp
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.TIMER:
+        return (
+          <Timer
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.TOOLS:
-        return <Tools color={this.props.color || ICON_COLOR} />;
+        return (
+          <Tools
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.USER:
-        return <User color={this.props.color || ICON_COLOR} />;
+        return (
+          <User
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+
+      case Types.ALARM_CLOCK:
+        return (
+          <AlarmClock
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.APPLE:
+        return (
+          <Apple
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.BAND_AID:
+        return (
+          <BandAid
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.BAR:
+        return (
+          <Bar
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.BOTTLE:
+        return (
+          <Bottle
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.BREATHING:
-        return <Breathing color={this.props.color || ICON_COLOR} />;
+        return (
+          <Breathing
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CARDIO:
-        return <Cardio color={this.props.color || ICON_COLOR} />;
+        return (
+          <Cardio
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.CARROT:
+        return (
+          <Carrot
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.CIGARETTE:
-        return <Cigarette color={this.props.color || ICON_COLOR} />;
+        return (
+          <Cigarette
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.COACH:
+        return (
+          <Coach
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.COFFEE:
+        return (
+          <Coffee
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.COMMUNITY:
+        return (
+          <Community
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.DOSAGE:
-        return <Dosage color={this.props.color || ICON_COLOR} />;
+        return (
+          <Dosage
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.DRINKING:
+        return (
+          <Drinking
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.DRIVING:
+        return (
+          <Driving
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.EXERCISE:
+        return (
+          <Exercise
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.FAMILY:
+        return (
+          <Family
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.JOURNAL:
-        return <Journal color={this.props.color || ICON_COLOR} />;
+        return (
+          <Journal
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.KIT:
-        return <Kit color={this.props.color || ICON_COLOR} />;
+        return (
+          <Kit
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.LOVE:
+        return (
+          <Love
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.LUNGS:
-        return <Lungs color={this.props.color || ICON_COLOR} />;
+        return (
+          <Lungs
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.MEAL:
+        return (
+          <Meal
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.MEDICATION_LIST:
-        return <MedicationList color={this.props.color || ICON_COLOR} />;
+        return (
+          <MedicationList
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.MEDICATION:
-        return <Medication color={this.props.color || ICON_COLOR} />;
+        return (
+          <Medication
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.MISSION:
-        return <Mission color={this.props.color || ICON_COLOR} />;
+        return (
+          <Mission
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.NIGHTLIFE:
+        return (
+          <Nightlife
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.MINDFUL:
+        return (
+          <Mindful
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.NRT_GUM:
-        return <NRTGum color={this.props.color || ICON_COLOR} />;
+        return (
+          <NRTGum
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.NRT_LOZENGE:
-        return <NRTLozenge color={this.props.color || ICON_COLOR} />;
+        return (
+          <NRTLozenge
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.NRT_PATCH:
-        return <NRTPatch color={this.props.color || ICON_COLOR} />;
+        return (
+          <NRTPatch
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.OUTDOORS:
-        return <Outdoors color={this.props.color || ICON_COLOR} />;
+        return (
+          <Outdoors
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.QUIT_AIDS:
-        return <QuitAids color={this.props.color || ICON_COLOR} />;
+        return (
+          <QuitAids
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.RIBBON:
+        return (
+          <Ribbon
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.SNACK:
+        return (
+          <Snack
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.TARGET:
-        return <Target color={this.props.color || ICON_COLOR} />;
+        return (
+          <Target
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.THINKING:
+        return (
+          <Thinking
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.TOOTH:
+        return (
+          <Tooth
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       case Types.TROPHY:
-        return <Trophy color={this.props.color || ICON_COLOR} />;
+        return (
+          <Trophy
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.VAPE:
+        return (
+          <Vape
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.WALK:
+        return (
+          <Walk
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.WATER:
+        return (
+          <Water
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
       default:
         return null;
     }

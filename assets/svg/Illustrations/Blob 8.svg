@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
   <defs>
-    <symbol id="Blob_8-2" data-name="Blob 8" viewBox="0 0 173.04 166.8">
+    <symbol id="Blob_8" data-name="Blob 8" viewBox="0 0 173.04 166.8">
       <path id="Blob" d="M106.37,0C133.26,0,173,17.45,173,74s-61.16,53.35-78.51,21.53S32.66,49.9,40.66,29,79.48,0,106.37,0ZM.35,97.82c-3.91-33,26-29.79,46.41-13.52l.61.48c20.1,15.76,32.55,15.17,45.42,38.67,13,23.74-11.34,44.5-32.18,43.3S4.26,130.86.35,97.82Z" fill="#fff1e8" fill-rule="evenodd"/>
     </symbol>
   </defs>
   <g id="Blob_8" data-name="Blob 8">
-    <use width="173.04" height="166.8" transform="translate(76.98 25.6)" xlink:href="#Blob_8-2"/>
+    <use width="173.04" height="166.8" transform="translate(76.98 25.6)" xlink:href="#Blob_8""/>
   </g>
 </svg>
