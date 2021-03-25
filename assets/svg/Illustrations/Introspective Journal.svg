@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_1-2" data-name="Blob 1" viewBox="0 0 293 184">
-      <path id="Blob" d="M189.42,176.39C269.66,152.28,327,44.81,270,9.79S149.57,44.94,96.4,44.94,0,57.88,0,111,109.17,200.51,189.42,176.39Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Book" data-name="Book" viewBox="0 0 247.14 129">
       <g id="Shade_2" data-name="Shade 2">
         <path id="Shade_3" data-name="Shade 3" d="M123.5,109.4c-.27-.11-.56-.19-.84-.28a9.5,9.5,0,0,0-2.73-.42c-6.69,0-13.32,7.32-13.32,11.39a3.87,3.87,0,0,0,.27,1.46c1-3.34,5-7.69,9.65-9.25h0c.16-.06.32-.1.48-.15l.51-.14.45-.1.61-.1.36,0a8.22,8.22,0,0,1,1-.06,8.94,8.94,0,0,1,1,.06c.24,0,.47.07.71.12l.26.05a6.63,6.63,0,0,1,.9.25h0c.31.11.61.22.91.35a14.33,14.33,0,0,1,7.57,8.84,3.39,3.39,0,0,0,.25-1.28C131.61,116.78,128.32,111.33,123.5,109.4Z" fill="#ffcbab"/>
@@ -27,7 +24,7 @@
   </defs>
   <g id="Introspective_Journal" data-name="Introspective Journal">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="293" height="184" transform="translate(17 17)" xlink:href="#Blob_1-2"/>
+    <path id="Blob" d="M206.42,193.39C286.66,169.28,344,61.81,287,26.79S166.57,61.94,113.4,61.94,17,74.88,17,128,126.17,217.51,206.42,193.39Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="247.14" height="129" transform="translate(40 44) scale(1 1.01)" xlink:href="#Book"/>
   </g>
 </svg>

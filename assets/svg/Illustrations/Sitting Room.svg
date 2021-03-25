@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_1-2" data-name="Blob 1" viewBox="0 0 293 184">
-      <path id="Blob" d="M189.42,176.39C269.66,152.28,327,44.81,270,9.79S149.57,44.94,96.4,44.94,0,57.88,0,111,109.17,200.51,189.42,176.39Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Wall_Shelf" data-name="Wall Shelf" viewBox="0 0 100 42">
       <g id="Wall_Shelf-3" data-name="Wall Shelf">
         <g id="Picture_Frame" data-name="Picture Frame">
@@ -75,7 +72,9 @@
   </defs>
   <g id="Sitting_Room" data-name="Sitting Room">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use id="Blob_1-4" data-name="Blob 1" width="293" height="184" transform="translate(17 17)" xlink:href="#Blob_1-2"/>
+    <g id="Blob_1-2" data-name="Blob 1">
+      <path id="Blob" d="M206.42,193.39C286.66,169.28,344,61.81,287,26.79S166.57,61.94,113.4,61.94,17,74.88,17,128,126.17,217.51,206.42,193.39Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </g>
     <use width="100" height="42" transform="translate(177 41)" xlink:href="#Wall_Shelf"/>
     <use width="33.08" height="30" transform="translate(144 4)" xlink:href="#Clock"/>
     <use width="94.78" height="71" transform="translate(28 118)" xlink:href="#Chair"/>

@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_6-2" data-name="Blob 6" viewBox="0 0 315 199.05">
-      <path id="Blob" d="M111.36,8.23C25.1,34.32-36.58,150.57,24.74,188.46s129.46-38,186.62-38S315,136.43,315,78.93,197.63-17.86,111.36,8.23Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Calendar" data-name="Calendar" viewBox="0 0 63.47 57.9">
       <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M12.64,0a2.35,2.35,0,0,0-2.22,2.44V4.8H2.27a2.24,2.24,0,0,0-1.61.71A2.52,2.52,0,0,0,0,7.22V55.49A2.35,2.35,0,0,0,2.27,57.9H61.2a2.34,2.34,0,0,0,2.26-2.41V7.22a2.47,2.47,0,0,0-.66-1.71,2.2,2.2,0,0,0-1.6-.71H53.27V2.44A2.5,2.5,0,0,0,52.61.7,2.22,2.22,0,0,0,51,0a2.34,2.34,0,0,0-2.23,2.44V4.8H14.94V2.44A2.5,2.5,0,0,0,14.28.7,2.22,2.22,0,0,0,12.64,0Z" fill="#f8b890" fill-rule="evenodd"/>
       <g>
@@ -32,7 +29,7 @@
   </defs>
   <g id="Individual_Woman_Datetime_Alt" data-name="Individual Woman Datetime Alt">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="315" height="199.05" transform="translate(6 9.48)" xlink:href="#Blob_6-2"/>
+    <path id="Blob" d="M117.36,17.71C31.1,43.79-30.58,160.05,30.74,197.93s129.46-38,186.62-38S321,145.91,321,88.41,203.63-8.38,117.36,17.71Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="63.46" height="57.9" transform="translate(169.41 18.84)" xlink:href="#Calendar"/>
     <use width="95.14" height="165.03" transform="translate(91 32.67)" xlink:href="#Woman_Pointing_Alt"/>
   </g>

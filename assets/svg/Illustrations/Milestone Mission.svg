@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
+      <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
+    </symbol>
+    <symbol id="Blob_4-2" data-name="Blob 4" viewBox="0 0 282 205">
+      <path id="Blob" d="M222.92,188.31c68.7-40.08,70.86-73.58,40.13-116.36S167.2,38.38,116.57,7.77,0,41.87,0,117.41,154.21,228.39,222.92,188.31Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="Mission" data-name="Mission" viewBox="0 0 106.44 120">
+      <g>
+        <path d="M48.22,3.09V57.91c0,1.6,2.07,3.17,4.5,3.09s4.5-1.36,4.5-3.09V3.09c0-1.6-2.07-3.17-4.5-3.09s-4.5,1.36-4.5,3.09Z" fill="#ffc09a" fill-rule="evenodd"/>
+        <path d="M54,52.25l52.22,66.13a1,1,0,0,1-.16,1.4,1,1,0,0,1-.62.22H1a1,1,0,0,1-1-1,1,1,0,0,1,.22-.62L52.43,52.25a1,1,0,0,1,1.41-.16A.81.81,0,0,1,54,52.25Z" fill="#ffc09a" fill-rule="evenodd"/>
+        <path d="M95.92,5H52.51a4.26,4.26,0,0,0-4.29,4.22V42.78A4.26,4.26,0,0,0,52.51,47H95.92l.41,0a4.22,4.22,0,0,0,3.37-6.2L91.59,26,99.7,11.22A4.22,4.22,0,0,0,95.92,5Z" fill="#ff6607" fill-rule="evenodd"/>
+        <polygon points="52.72 65 15.22 112 90.22 112 52.72 65" fill="#fd9757" fill-rule="evenodd"/>
+      </g>
+    </symbol>
+  </defs>
+  <g id="Milestone_Mission_Default" data-name="Milestone Mission Default">
+    <use width="327" height="218" xlink:href="#Backdrop"/>
+    <use width="282" height="205" transform="translate(22.5 6.5)" xlink:href="#Blob_4-2"/>
+    <use width="106.44" height="120" transform="translate(110.28 49)" xlink:href="#Mission"/>
+  </g>
+</svg>

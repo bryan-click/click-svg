@@ -3,9 +3,16 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Paperplane" data-name="Paperplane" viewBox="0 0 140 130">
-      <polygon points="0 79.69 34.06 95.7 45.3 130 60.84 108.21 107.06 130 140 0 0 79.69" fill="#ffc09a"/>
-      <polygon points="48.13 100.79 46.46 121.04 38.91 97.23 133.34 9.33 48.13 100.79" fill="#fd9757"/>
+    <symbol id="Blob_4-2" data-name="Blob 4" viewBox="0 0 282 205">
+      <path id="Blob" d="M222.92,188.31c68.7-40.08,70.86-73.58,40.13-116.36S167.2,38.38,116.57,7.77,0,41.87,0,117.41,154.21,228.39,222.92,188.31Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </symbol>
+    <symbol id="Mission" data-name="Mission" viewBox="0 0 106.44 120">
+      <g>
+        <path d="M48.22,3.09V57.91c0,1.6,2.07,3.17,4.5,3.09s4.5-1.36,4.5-3.09V3.09c0-1.6-2.07-3.17-4.5-3.09s-4.5,1.36-4.5,3.09Z" fill="#ffc09a" fill-rule="evenodd"/>
+        <path d="M54,52.25l52.22,66.13a1,1,0,0,1-.16,1.4,1,1,0,0,1-.62.22H1a1,1,0,0,1-1-1,1,1,0,0,1,.22-.62L52.43,52.25a1,1,0,0,1,1.41-.16A.81.81,0,0,1,54,52.25Z" fill="#ffc09a" fill-rule="evenodd"/>
+        <path d="M95.92,5H52.51a4.26,4.26,0,0,0-4.29,4.22V42.78A4.26,4.26,0,0,0,52.51,47H95.92l.41,0a4.22,4.22,0,0,0,3.37-6.2L91.59,26,99.7,11.22A4.22,4.22,0,0,0,95.92,5Z" fill="#ff6607" fill-rule="evenodd"/>
+        <polygon points="52.72 65 15.22 112 90.22 112 52.72 65" fill="#fd9757" fill-rule="evenodd"/>
+      </g>
     </symbol>
     <symbol id="Sparkles" data-name="Sparkles" viewBox="0 0 132.75 120.94">
       <g id="Graphic">
@@ -22,10 +29,10 @@
       </g>
     </symbol>
   </defs>
-  <g id="Coummunication_Outbound" data-name="Coummunication Outbound">
+  <g id="Milestone_Mission_Sparkles" data-name="Milestone Mission Sparkles">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <path id="Blob" d="M22.94,126.58c-6.4-40,42.5-36.08,76-16.38S153,128.87,174.3,157.62s-18.57,53.89-52.68,52.44S29.34,166.59,22.94,126.58ZM195.31,7.88c44.1,0,109.32,21.23,109.32,90.11s-100.28,64.93-128.72,26.2-101.46-55.58-88.35-81S151.22,7.88,195.31,7.88Z" fill="#fff1e8" fill-rule="evenodd"/>
-    <use width="140" height="130" transform="translate(93.5 44)" xlink:href="#Paperplane"/>
+    <use width="282" height="205" transform="translate(22.5 6.5)" xlink:href="#Blob_4-2"/>
+    <use width="106.44" height="120" transform="translate(110.28 49)" xlink:href="#Mission"/>
     <use width="132.75" height="120.94" transform="translate(97.13 48.53)" xlink:href="#Sparkles"/>
   </g>
 </svg>

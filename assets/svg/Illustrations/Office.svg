@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_2-2" data-name="Blob 2" viewBox="0 0 327 169">
-      <path id="Blob" d="M212.32,6.5c89.94,27.07,144.45,100.09,97.4,141s-110.43,10.69-170,10.69S0,161.21,0,101.56,122.38-20.57,212.32,6.5Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Chair" data-name="Chair" viewBox="0 0 94.78 71">
       <g id="Chair-3" data-name="Chair">
         <polygon id="Leg" points="15.48 56.35 9.26 71 6.43 71 10.18 55.64 15.48 56.35" fill="#fd9757" fill-rule="evenodd"/>
@@ -31,18 +28,17 @@
         </g>
       </g>
     </symbol>
-    <symbol id="Medical_Symbol" data-name="Medical Symbol" viewBox="0 0 53 48">
-      <circle cx="29" cy="24" r="24" fill="#ffa66f"/>
-      <circle cx="24" cy="24" r="24" fill="#ffc09a"/>
-      <path d="M28,8a2,2,0,0,1,2,2v9h9a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2H30v9a2,2,0,0,1-2,2H22a2,2,0,0,1-2-2V29H11a2,2,0,0,1-2-2V21a2,2,0,0,1,2-2h9V10a2,2,0,0,1,2-2Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
   </defs>
   <g id="Office">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="327" height="169" transform="translate(0 24.5)" xlink:href="#Blob_2-2"/>
+    <path id="Blob" d="M212.32,31c89.94,27.07,144.45,100.09,97.4,141s-110.43,10.69-170,10.69S0,185.71,0,126.06,122.38,3.93,212.32,31Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="94.78" height="71" transform="translate(15.55 122.94)" xlink:href="#Chair"/>
     <use width="94.78" height="71" transform="matrix(-1, 0, 0, 1, 311.45, 122.94)" xlink:href="#Chair"/>
     <use width="50" height="130" transform="translate(138 57.79)" xlink:href="#Plant_2"/>
-    <use width="53" height="48" transform="translate(244.5 24.06)" xlink:href="#Medical_Symbol"/>
+    <g>
+      <circle cx="273.5" cy="48.06" r="24" fill="#ffa66f"/>
+      <circle cx="268.5" cy="48.06" r="24" fill="#ffc09a"/>
+      <path d="M272.5,32.06a2,2,0,0,1,2,2v9h9a2,2,0,0,1,2,2v6a2,2,0,0,1-2,2h-9v9a2,2,0,0,1-2,2h-6a2,2,0,0,1-2-2v-9h-9a2,2,0,0,1-2-2v-6a2,2,0,0,1,2-2h9v-9a2,2,0,0,1,2-2Z" fill="#fff1e8" fill-rule="evenodd"/>
+    </g>
   </g>
 </svg>

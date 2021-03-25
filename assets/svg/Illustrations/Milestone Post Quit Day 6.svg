@@ -6,9 +6,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_8-2" data-name="Blob 8" viewBox="0 0 173.04 166.8">
-      <path id="Blob" d="M106.37,0C133.26,0,173,17.45,173,74s-61.16,53.35-78.51,21.53S32.66,49.9,40.66,29,79.48,0,106.37,0ZM.35,97.82c-3.91-33,26-29.79,46.41-13.52l.61.48c20.1,15.76,32.55,15.17,45.42,38.67,13,23.74-11.34,44.5-32.18,43.3S4.26,130.86.35,97.82Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Confetti" data-name="Confetti" viewBox="0 0 180 180">
       <g clip-path="url(#clip-path)">
         <g style="isolation: isolate">
@@ -233,7 +230,7 @@
   </defs>
   <g id="Milestone_Post_Quit_Day_6" data-name="Milestone Post Quit Day 6">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="173.04" height="166.8" transform="translate(76.98 25.6)" xlink:href="#Blob_8-2"/>
+    <path id="Blob" d="M183.35,25.6c26.9,0,66.67,17.45,66.67,74s-61.16,53.35-78.5,21.53S109.64,75.5,117.64,54.61,156.46,25.6,183.35,25.6Zm-106,97.82c-3.91-33,26-29.79,46.41-13.52l.61.48c20.1,15.76,32.55,15.17,45.42,38.67,13,23.74-11.34,44.5-32.17,43.3S81.24,156.46,77.33,123.42Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="180" height="180" transform="translate(73.5 19.99)" xlink:href="#Confetti"/>
     <use width="81.08" height="120.61" transform="translate(122.96 48.7)" xlink:href="#Ribbon_Generic"/>
     <use width="43.87" height="52.57" transform="translate(141.56 64.7)" xlink:href="#Star_Ring_6"/>

@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_5-2" data-name="Blob 5" viewBox="0 0 232.17 185.29">
-      <path id="Blob" d="M58.52,26.61C-1.66,65.47-23.4,167.72,31.69,183.16c31.4,8.8,56.42-11.1,80.23-32.16l3.74-3.33h0l3.74-3.33h0l2.48-2.2c14.47-12.81,28.74-24.59,44-29C209.56,100.6,242,79.71,229.45,35.84S118.7-12.24,58.52,26.61Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Table" data-name="Table" viewBox="0 0 119.44 112.14">
       <g id="Table-3" data-name="Table">
         <rect x="69.41" y="37.99" width="8.96" height="73.51" fill="#ffb78a"/>
@@ -71,7 +68,7 @@
   </defs>
   <g id="Individual_Woman_Healthworker_Quit_Aids" data-name="Individual Woman Healthworker Quit Aids">
     <use width="327" height="218" transform="translate(0.32)" xlink:href="#Backdrop"/>
-    <use width="232.17" height="185.29" transform="translate(47.42 16.35)" xlink:href="#Blob_5-2"/>
+    <path id="Blob" d="M105.94,43C45.75,81.82,24,184.07,79.1,199.51c31.4,8.8,56.43-11.1,80.23-32.16l3.75-3.33h0l3.73-3.33h0l2.49-2.2c14.46-12.8,28.74-24.59,44-29C257,117,289.4,96.06,276.86,52.19S166.12,4.11,105.94,43Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="119.44" height="112.14" transform="translate(167 94)" xlink:href="#Table"/>
     <use id="Woman_Healthworker-3" data-name="Woman Healthworker" width="105.68" height="171.83" transform="translate(45.5 34) scale(0.99 1)" xlink:href="#Woman_Healthworker"/>
     <use width="115.22" height="70.38" transform="translate(123.02 4.1)" xlink:href="#Expression_NRT"/>

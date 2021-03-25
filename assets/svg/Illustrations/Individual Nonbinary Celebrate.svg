@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_3-2" data-name="Blob 3" viewBox="0 0 255.4 211.93">
-      <path id="Blob" d="M199.34,70.93c40.38,0,60.07,33.41,55.38,66.84s-31.4,74.16-108.78,74.16S73,142.46,116.51,122.75,159,70.93,199.34,70.93ZM71.32,7.82C144-14.65,149.61,16,142.74,40.75s-21.5,44.85-53,61S32,94.7,10.16,74.62-1.35,30.29,71.32,7.82Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Nonbinary_Celebrate" data-name="Nonbinary Celebrate" viewBox="0 0 112.44 208.73">
       <polygon id="Leg-_skin_" data-name="Leg-[skin]" points="35.64 100.73 52.32 157.77 60.17 200.59 68.05 200.59 60.19 100.73 35.64 100.73" fill="#915b3c" fill-rule="evenodd"/>
       <polygon id="Shadow" points="35.64 100.73 52.32 157.77 60.17 200.59 68.05 200.59 60.19 100.73 35.64 100.73" fill-opacity="0.1" fill-rule="evenodd"/>
@@ -27,7 +24,7 @@
   </defs>
   <g id="Individual_Nonbinary_Celebrate" data-name="Individual Nonbinary Celebrate">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="255.4" height="211.93" transform="translate(22.83 4.47) scale(1.1 0.99)" xlink:href="#Blob_3-2"/>
+    <path id="Blob" d="M242.41,74.44c44.48,0,66.18,33,61,65.93s-34.59,73.16-119.83,73.16-80.34-68.53-32.41-88S197.93,74.44,242.41,74.44Zm-141-62.26c80.06-22.16,86.24,8,78.68,32.48s-23.69,44.25-58.37,60.21S58.1,97.89,34,78.08,21.34,34.35,101.39,12.18Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="112.44" height="208.73" transform="translate(115.4 3.37)" xlink:href="#Nonbinary_Celebrate"/>
   </g>
 </svg>

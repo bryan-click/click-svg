@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_4-2" data-name="Blob 4" viewBox="0 0 282 205">
-      <path id="Blob" d="M222.92,188.31c68.7-40.08,70.86-73.58,40.13-116.36S167.2,38.38,116.57,7.77,0,41.87,0,117.41,154.21,228.39,222.92,188.31Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Lungs" data-name="Lungs" viewBox="0 0 145.07 118.28">
       <g id="Lungs-3" data-name="Lungs">
         <path id="Path" d="M22.68,116.93l15.88-2.82c9-1.6,15.6-9.9,15.6-19.62v-70c0-4.23-4.18-7.65-9.34-7.65H43c-18.92,0-34.86,15.07-37.1,35.09L1.06,95A20.67,20.67,0,0,0,6.72,111.7,17.93,17.93,0,0,0,22.68,116.93Z" fill="#ffc09a"/>
@@ -37,7 +34,7 @@
   </defs>
   <g id="Milestone_Lung_Recovery" data-name="Milestone Lung Recovery">
     <use width="327" height="218" transform="translate(-0.37 0.56) rotate(-0.2)" xlink:href="#Backdrop"/>
-    <use width="282" height="205" transform="translate(22.5 6.5)" xlink:href="#Blob_4-2"/>
+    <path id="Blob" d="M245.42,194.81c68.7-40.08,70.86-73.58,40.13-116.36S189.7,44.88,139.07,14.27,22.5,48.37,22.5,123.91,176.71,234.89,245.42,194.81Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="145.07" height="118.28" transform="translate(90.97 49.86)" xlink:href="#Lungs"/>
     <use width="132.75" height="120.94" transform="translate(102.13 53.53)" xlink:href="#Sparkles"/>
   </g>

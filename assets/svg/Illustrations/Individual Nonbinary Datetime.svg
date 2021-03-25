@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
   <defs>
-    <symbol id="Blob_1-2" data-name="Blob 1" viewBox="0 0 293 184">
-      <path id="Blob" d="M189.42,176.39C269.66,152.28,327,44.81,270,9.79S149.57,44.94,96.4,44.94,0,57.88,0,111,109.17,200.51,189.42,176.39Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Plant_2" data-name="Plant 2" viewBox="0 0 50 130">
       <g id="Plant">
         <path id="Stems" d="M25.72,103Q30.24,83.78,35,64.27,40.91,39.9,47,16A332.83,332.83,0,0,0,27.65,77.32,440.27,440.27,0,0,0,24,0c.39,32.1.37,66.35.29,89C19.32,54.32,7,54,7,54c8.53,6.87,17.29,35,15,65C22.42,113.55,24.48,108.36,25.72,103Z" fill="#ffd3b8" fill-rule="evenodd"/>
@@ -61,7 +58,7 @@
   </defs>
   <g id="Individual_Nonbinary_Datetime" data-name="Individual Nonbinary Datetime">
     <rect id="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
-    <use width="293" height="184" transform="translate(17 17)" xlink:href="#Blob_1-2"/>
+    <path id="Blob" d="M206.42,193.39C286.66,169.28,344,61.81,287,26.79S166.57,61.94,113.4,61.94,17,74.88,17,128,126.17,217.51,206.42,193.39Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="50" height="130" transform="translate(35.61 72.26)" xlink:href="#Plant_2"/>
     <use width="121.52" height="62.38" transform="translate(85.61 6.26)" xlink:href="#Expression_Date"/>
     <use width="94.78" height="71" transform="matrix(-1.49, 0, 0, 1.49, 294.27, 96.26)" xlink:href="#Chair"/>

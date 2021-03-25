@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_3-2" data-name="Blob 3" viewBox="0 0 255.4 211.93">
-      <path id="Blob" d="M199.34,70.93c40.38,0,60.07,33.41,55.38,66.84s-31.4,74.16-108.78,74.16S73,142.46,116.51,122.75,159,70.93,199.34,70.93ZM71.32,7.82C144-14.65,149.61,16,142.74,40.75s-21.5,44.85-53,61S32,94.7,10.16,74.62-1.35,30.29,71.32,7.82Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Money" data-name="Money" viewBox="0 0 17.58 18.71">
       <g id="Money-3" data-name="Money">
         <polygon id="Rectangle" points="1.96 0 9.54 1.34 5.55 17.96 0 16.11 1.96 0" fill="#6fc164" fill-rule="evenodd"/>
@@ -35,7 +32,7 @@
   </defs>
   <g id="Individual_Man_Cash" data-name="Individual Man Cash">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="255.4" height="211.93" transform="translate(35.8 3.04)" xlink:href="#Blob_3-2"/>
+    <path id="Blob" d="M235.13,74c40.39,0,60.08,33.42,55.39,66.84S259.12,215,181.74,215s-72.94-69.47-29.43-89.17S194.75,74,235.13,74Zm-128-63.1c72.67-22.47,78.29,8.15,71.42,32.92s-21.5,44.85-53,61S67.82,97.74,46,77.66,34.45,33.32,107.12,10.86Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="103.45" height="182.65" transform="translate(114.8 17.39)" xlink:href="#Man_Cash"/>
   </g>
 </svg>

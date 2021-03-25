@@ -3,9 +3,6 @@
     <symbol id="Backdrop" data-name="Backdrop" viewBox="0 0 327 218">
       <rect id="Backdrop-3" data-name="Backdrop" width="327" height="218" rx="8" fill="#fff"/>
     </symbol>
-    <symbol id="Blob_4-2" data-name="Blob 4" viewBox="0 0 282 205">
-      <path id="Blob" d="M222.92,188.31c68.7-40.08,70.86-73.58,40.13-116.36S167.2,38.38,116.57,7.77,0,41.87,0,117.41,154.21,228.39,222.92,188.31Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
     <symbol id="Chair" data-name="Chair" viewBox="0 0 94.78 71">
       <g id="Chair-3" data-name="Chair">
         <polygon id="Leg" points="15.48 56.35 9.26 71 6.43 71 10.18 55.64 15.48 56.35" fill="#fd9757" fill-rule="evenodd"/>
@@ -49,7 +46,7 @@
   </defs>
   <g id="Individual_Nonbinary_Thinking" data-name="Individual Nonbinary Thinking">
     <use width="327" height="218" xlink:href="#Backdrop"/>
-    <use width="282" height="205" transform="translate(22.5 6.5)" xlink:href="#Blob_4-2"/>
+    <path id="Blob" d="M245.42,194.81c68.7-40.08,70.86-73.58,40.13-116.36S189.7,44.88,139.07,14.27,22.5,48.37,22.5,123.91,176.71,234.89,245.42,194.81Z" fill="#fff1e8" fill-rule="evenodd"/>
     <use width="94.78" height="71" transform="matrix(-1.49, 0, 0, 1.49, 250.51, 96.26)" xlink:href="#Chair"/>
     <use width="127.92" height="175.45" transform="translate(85.08 38.32)" xlink:href="#Nonbinary_Sitting"/>
     <use width="121.52" height="62.38" transform="translate(20 6.6)" xlink:href="#Expression_Thinking"/>

@@ -1,10 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
-  <defs>
-    <symbol id="Blob_7" data-name="Blob 7" viewBox="0 0 282.25 202.24">
-      <path id="Blob" d="M.57,118.7c-6.4-40,42.49-36.08,76-16.38s54.09,18.67,75.37,47.42-18.57,53.89-52.68,52.44S7,158.71.57,118.7ZM172.94,0C217,0,282.25,21.23,282.25,90.11S182,155,153.53,116.31s-101.45-55.58-88.34-81S128.84,0,172.94,0Z" fill="#fff1e8" fill-rule="evenodd"/>
-    </symbol>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 327 218">
   <g id="Blob_7" data-name="Blob 7">
-    <use width="282.25" height="202.24" transform="translate(22.37 7.88)" xlink:href="#Blob_7"/>
+    <path id="Blob" d="M22.94,126.58c-6.4-40,42.5-36.08,76-16.38S153,128.87,174.3,157.62s-18.57,53.89-52.68,52.44S29.34,166.59,22.94,126.58ZM195.31,7.88c44.1,0,109.32,21.23,109.32,90.11s-100.28,64.93-128.72,26.2-101.46-55.58-88.35-81S151.22,7.88,195.31,7.88Z" fill="#fff1e8" fill-rule="evenodd"/>
   </g>
 </svg>
