@@ -10,9 +10,9 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { BackgroundCircle, Done, Ribbon } from "./shared";
+import { BackgroundCircle, Done, Trophy } from "./shared";
 
-function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
+function TrophyAchieved({ width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
@@ -23,14 +23,14 @@ function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
       <Defs>
         <BackgroundCircle />
         <Done />
-        <Ribbon />
+        <Trophy />
       </Defs>
       <Use width={96} height={96} xlinkHref="#background-circle-achieved" />
       <Use
-        width={43.02}
+        width={53.54}
         height={64}
-        transform="translate(26.49 16)"
-        xlinkHref="#ribbon-achieved"
+        transform="translate(21.23 16)"
+        xlinkHref="#trophy-achieved"
       />
       <Use
         width={24}
@@ -42,4 +42,4 @@ function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default RibbonAchieved;
+export default TrophyAchieved;

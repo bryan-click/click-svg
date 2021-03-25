@@ -24,6 +24,7 @@ import EyeOpen from "./eye-open";
 import GraphLine from "./graph-line";
 import Home from "./home";
 import Info from "./info";
+import Lock from "./lock";
 import Options from "./options";
 import Phone from "./phone";
 import SquareHollow from "./square-hollow";
@@ -60,6 +61,7 @@ export {
   GraphLine,
   Home,
   Info,
+  Lock,
   Options,
   Phone,
   SquareHollow,

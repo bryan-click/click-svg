@@ -17,10 +17,29 @@ function BackgroundCircle() {
     <Fragment>
       <Symbol
         id="background-circle-achieved"
-        data-name="Background Circle achieved"
+        data-name="Background Circle Achieved"
         viewBox="0 0 96 96"
       >
-        <Circle data-name="Circle" r={48} x={48} y={48} fill={"#fff"} />
+        <Circle
+          data-name="Background Circle"
+          cx={48}
+          cy={48}
+          r={48}
+          fill="#FFF1E8"
+        />
+      </Symbol>
+      <Symbol
+        id="background-circle-locked"
+        data-name="Background Circle Locked"
+        viewBox="0 0 96 96"
+      >
+        <Circle
+          data-name="Background Circle"
+          cx={48}
+          cy={48}
+          r={48}
+          fill="#F5F5F5"
+        />
       </Symbol>
     </Fragment>
   );

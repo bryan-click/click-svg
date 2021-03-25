@@ -10,7 +10,7 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { BackgroundCircle, Done, Ribbon } from "./shared";
+import { BackgroundCircle, Locked, Mission } from "./shared";
 
 function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
   return (
@@ -22,21 +22,21 @@ function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
     >
       <Defs>
         <BackgroundCircle />
-        <Done />
-        <Ribbon />
+        <Locked />
+        <Mission />
       </Defs>
-      <Use width={96} height={96} xlinkHref="#background-circle-achieved" />
+      <Use width={96} height={96} xlinkHref="#background-circle-locked" />
       <Use
-        width={43.02}
+        width={56.77}
         height={64}
-        transform="translate(26.49 16)"
-        xlinkHref="#ribbon-achieved"
+        transform="translate(19.62 16)"
+        xlinkHref="#mission-locked"
       />
       <Use
         width={24}
         height={24}
         transform="translate(72 72)"
-        xlinkHref="#done"
+        xlinkHref="#locked"
       />
     </Svg>
   );

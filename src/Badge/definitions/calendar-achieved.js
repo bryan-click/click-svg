@@ -10,9 +10,9 @@ import Svg, {
   Rect
 } from "react-native-svg";
 
-import { BackgroundCircle, Done, Ribbon } from "./shared";
+import { BackgroundCircle, Done, Calendar } from "./shared";
 
-function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
+function CalendarAchieved({ width, height, viewBox, preserveAspectRatio }) {
   return (
     <Svg
       preserveAspectRatio={preserveAspectRatio || "xMidYMid meet"}
@@ -23,14 +23,14 @@ function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
       <Defs>
         <BackgroundCircle />
         <Done />
-        <Ribbon />
+        <Calendar />
       </Defs>
       <Use width={96} height={96} xlinkHref="#background-circle-achieved" />
       <Use
-        width={43.02}
-        height={64}
-        transform="translate(26.49 16)"
-        xlinkHref="#ribbon-achieved"
+        width={64}
+        height={58.38}
+        transform="translate(16 18.81)"
+        xlinkHref="#calendar-achieved"
       />
       <Use
         width={24}
@@ -42,4 +42,4 @@ function RibbonAchieved({ width, height, viewBox, preserveAspectRatio }) {
   );
 }
 
-export default RibbonAchieved;
+export default CalendarAchieved;

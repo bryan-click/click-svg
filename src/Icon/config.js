@@ -21,6 +21,7 @@ export const Types = {
   GRAPH_LINE: "graph_line",
   HOME: "home",
   INFO: "info",
+  LOCK: "lock",
   OPTIONS: "options",
   PHONE: "phone",
   SQUARE_HOLLOW: "square_hollow",

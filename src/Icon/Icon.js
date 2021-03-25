@@ -28,6 +28,7 @@ import {
   GraphLine,
   Home,
   Info,
+  Lock,
   Options,
   Phone,
   SquareHollow,
@@ -286,6 +287,14 @@ class Icon extends Component {
       case Types.INFO:
         return (
           <Info
+            width={this.props.width}
+            height={this.props.height}
+            color={this.props.color || ICON_COLOR}
+          />
+        );
+      case Types.LOCK:
+        return (
+          <Lock
             width={this.props.width}
             height={this.props.height}
             color={this.props.color || ICON_COLOR}

@@ -1,3 +1,8 @@
 import BackgroundCircle from "./background-circle";
-import { Indicators, Objects } from "./objects";
-export { Indicators, Objects, BackgroundCircle };
+export { BackgroundCircle };
+
+import { Done, Locked } from "./indicators";
+export { Done, Locked };
+
+import { Calendar, Mission, Ribbon, Shield, Trophy } from "./objects";
+export { Calendar, Mission, Ribbon, Shield, Trophy };

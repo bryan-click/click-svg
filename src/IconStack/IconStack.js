@@ -28,6 +28,8 @@ class IconStack extends Component {
               fill={
                 this.props.type === Types.DONE
                   ? "#6DD400"
+                  : this.props.type === Types.LOCKED
+                  ? "#B3B5B8"
                   : this.props.color || "#FF6607"
               }
             />
@@ -39,6 +41,10 @@ class IconStack extends Component {
 
   renderStack(type) {
     switch (type) {
+      case Types.LOCKED:
+        return (
+          <Icon width={12} height={12} color="white" type={Variants.LOCK} />
+        );
       case Types.DONE:
         return (
           <Icon width={12} height={12} color="white" type={Variants.CHECK} />
