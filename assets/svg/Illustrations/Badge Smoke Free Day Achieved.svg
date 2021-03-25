@@ -1,13 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96">
+  <defs>
+    <symbol id="Badge_Background_Achieved" data-name="Badge Background Achieved" viewBox="0 0 96 96">
+      <circle cx="48" cy="48" r="48" fill="#fff1e8"/>
+    </symbol>
+    <symbol id="Ribbon_Badge_Achieved" data-name="Ribbon Badge Achieved" viewBox="0 0 43.02 64">
+      <g>
+        <path d="M43,22.08C43,9.89,33.39,0,21.51,0S0,9.89,0,22.08A22.24,22.24,0,0,0,8.6,39.74v21.5a2.77,2.77,0,0,0,1.66,2.55,2.63,2.63,0,0,0,2.93-.6l8.32-8.53,8.32,8.52a2.65,2.65,0,0,0,2.93.59,2.76,2.76,0,0,0,1.65-2.55V39.75A22.24,22.24,0,0,0,43,22.08Z" fill="#fd9757" fill-rule="evenodd"/>
+        <path d="M21.51,5.52a15.82,15.82,0,0,1,11.41,4.85,16.86,16.86,0,0,1,0,23.42,15.85,15.85,0,0,1-22.82,0,16.89,16.89,0,0,1,0-23.42A15.82,15.82,0,0,1,21.51,5.52ZM14,42.77a21.09,21.09,0,0,0,15.06,0v11.8L23.4,48.81a2.65,2.65,0,0,0-3.8,0L14,54.58Z" fill="#ff6607" fill-rule="evenodd"/>
+      </g>
+    </symbol>
+    <symbol id="Done" data-name="Done" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="12" fill="#6dd400"/>
+      <path id="Path" d="M17.84,7.92a.53.53,0,0,0-.75,0L9.91,15,6.91,12a.53.53,0,0,0-.75,0,.51.51,0,0,0,0,.74l3.37,3.31h0a.57.57,0,0,0,.38.15.54.54,0,0,0,.38-.15h0l7.54-7.41A.51.51,0,0,0,17.84,7.92Z" fill="#fff" fill-rule="evenodd"/>
+    </symbol>
+  </defs>
   <g id="Badge_Smoke_Free_Day_Achieved" data-name="Badge Smoke Free Day Achieved">
-    <circle cx="48" cy="48" r="48" fill="#fff1e8"/>
-    <g>
-      <path d="M69.51,38.08C69.51,25.89,59.88,16,48,16S26.49,25.89,26.49,38.08a22.24,22.24,0,0,0,8.6,17.66v21.5a2.75,2.75,0,0,0,1.66,2.55,2.63,2.63,0,0,0,2.93-.6L48,70.66l8.32,8.52a2.65,2.65,0,0,0,2.93.59,2.76,2.76,0,0,0,1.65-2.55V55.75A22.24,22.24,0,0,0,69.51,38.08Z" fill="#fd9757" fill-rule="evenodd"/>
-      <path d="M48,21.52a15.82,15.82,0,0,1,11.41,4.85,16.89,16.89,0,0,1,0,23.42,15.85,15.85,0,0,1-22.82,0,16.89,16.89,0,0,1,0-23.42A15.82,15.82,0,0,1,48,21.52ZM40.47,58.77a21.06,21.06,0,0,0,15.05,0v11.8l-5.63-5.76a2.65,2.65,0,0,0-3.8,0l-5.62,5.77Z" fill="#ff6607" fill-rule="evenodd"/>
-    </g>
-    <g>
-      <circle cx="84" cy="84" r="12" fill="#6dd400"/>
-      <path id="Path" d="M89.84,79.92a.54.54,0,0,0-.76,0l-7.17,7-3-2.94a.53.53,0,0,0-.75,0,.51.51,0,0,0,0,.74l3.36,3.31h0a.57.57,0,0,0,.38.15.54.54,0,0,0,.38-.15h0l7.54-7.41A.51.51,0,0,0,89.84,79.92Z" fill="#fff" fill-rule="evenodd"/>
-    </g>
+    <use width="96" height="96" xlink:href="#Badge_Background_Achieved"/>
+    <use width="43.02" height="64" transform="translate(26.49 16)" xlink:href="#Ribbon_Badge_Achieved"/>
+    <use width="24" height="24" transform="translate(72 72)" xlink:href="#Done"/>
   </g>
 </svg>
