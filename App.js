@@ -22,6 +22,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 // 🥽 Click Design System - SVG Components
 import { Icon } from "./src/Icon";
 import { IconStack } from "./src/IconStack";
+import { Badge } from "./src/Badge";
 import { Illustration } from "./src/Illustration";
 
 // 🧩 Icons
@@ -138,6 +139,63 @@ function IconStackScreen() {
   );
 }
 
+// 🎖 Badge
+function Badges({ navigation }) {
+  const BadgeList = () => {
+    const iconstacks = Badge.Types;
+    const stack = Object.entries(iconstacks).map(([key, value]) => {
+      return (
+        <View key={key} style={{ alignItems: "center", marginBottom: 48 }}>
+          <Badge type={value} />
+          <View
+            style={{
+              alignItems: "center",
+              paddingVertical: 4,
+              paddingHorizontal: 8,
+              marginTop: 8,
+              borderRadius: 3,
+              backgroundColor: "black"
+            }}
+          >
+            <Text
+              id={key}
+              style={{
+                color: "salmon",
+                fontSize: 10,
+                textAlign: "center"
+              }}
+            >
+              {`<Badge type="${value}" />`}
+            </Text>
+          </View>
+        </View>
+      );
+    });
+    return <View>{stack}</View>;
+  };
+  return (
+    <SafeAreaView style={styles.safeAreaView}>
+      <ScrollView style={styles.scrollView}>
+        <View
+          style={{
+            alignItems: "center"
+          }}
+        >
+          <BadgeList />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
+  );
+}
+
+function BadgeScreen() {
+  return (
+    <Stack.Navigator>
+      <Stack.Screen name="🎖 Badges" component={Badges} />
+    </Stack.Navigator>
+  );
+}
+
 // 🖼 Illustrations
 function Illustrations({ navigation }) {
   const IllustrationList = () => {
@@ -204,9 +262,10 @@ function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
-        <Tab.Screen name="🖼 Illustrations" component={IllustrationScreen} />
         <Tab.Screen name="🧩 Icons" component={IconScreen} />
         <Tab.Screen name="🎀 Icon Stacks" component={IconStackScreen} />
+        <Tab.Screen name="🎖 Badges" component={BadgeScreen} />
+        <Tab.Screen name="🖼 Illustrations" component={IllustrationScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
@@ -216,7 +275,7 @@ function App() {
 const styles = StyleSheet.create({
   safeAreaView: {
     flex: 1,
-    backgroundColor: "snow" // 🖍 Override BG_COLOR with a custom variable or pass a string to the 'color' prop
+    backgroundColor: "#FFFFFF" // 🖍 Override BG_COLOR with a custom variable or pass a string to the 'color' prop
   },
   scrollView: {
     marginTop: Constants.statusBarHeight * 0,
