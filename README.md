@@ -6,9 +6,9 @@ It is supported by all the major modern web browsers, can be compressed and is s
 
 This repository contains all the SVGs used at Click Therapeutics — both in SVG file format and React javascript components.
 
-- [Guidelines](#)
-- [Frequesntly asked questions](#)
-- [View full table of SVGs](#)
+- **[SVG Guidelines](#-svg-guidelines)**
+- **[Frequesntly asked questions](#-frequently-asked-questions)**
+- **[View full table of SVGs](#table-of-svgs)**
 
 ## Getting Started 🏁
 
@@ -22,91 +22,95 @@ Each category of SVG is intended to be used in a different contexts and ways. Re
 
 Depending on your needs and role, follow the guidelines below to create new or edit existing Click SVGs:
 
-- **[SVG for Designers](/#for-designers)**
+- **[SVG for Designers](/#svg-for-designers-)**
 
-- **[SVG for Engineers](/#for-designers)**
+- **[SVG for Engineers](/#svg-for-engineers-)**
 
 ## **Table of SVGs**
 
-| Name            | Variant        | .svg | .js |
-| --------------- | -------------- | ---- | --- |
-| admin           | 🧩 Icon        |      |     |
-| admin           | 🧩 Icon        |      |     |
-| arrow_left      | 🧩 Icon        |      |     |
-| arrow_right     | 🧩 Icon        |      |     |
-| bookmark_hollow | 🧩 Icon        |      |     |
-| bookmark        | 🧩 Icon        |      |     |
-| calendar        | 🧩 Icon        |      |     |
-| camera          | 🧩 Icon        |      |     |
-| check           | 🧩 Icon        |      |     |
-| chevron_down    | 🧩 Icon        |      |     |
-| chevron_left    | 🧩 Icon        |      |     |
-| chevron_right   | 🧩 Icon        |      |     |
-| chevron_up      | 🧩 Icon        |      |     |
-| circle_dot      | 🧩 Icon        |      |     |
-| circle_hollow   | 🧩 Icon        |      |     |
-| circle          | 🧩 Icon        |      |     |
-| close           | 🧩 Icon        |      |     |
-| eye_open        | 🧩 Icon        |      |     |
-| eye_close       | 🧩 Icon        |      |     |
-| graph_line      | 🧩 Icon        |      |     |
-| home            | 🧩 Icon        |      |     |
-| info            | 🧩 Icon        |      |     |
-| options         | 🧩 Icon        |      |     |
-| phone           | 🧩 Icon        |      |     |
-| square_hollow   | 🧩 Icon        |      |     |
-| square          | 🧩 Icon        |      |     |
-| star_hollow     | 🧩 Icon        |      |     |
-| star            | 🧩 Icon        |      |     |
-| supporter       | 🧩 Icon        |      |     |
-| thumbs_down     | 🧩 Icon        |      |     |
-| thumbs_up       | 🧩 Icon        |      |     |
-| timer           | 🧩 Icon        |      |     |
-| tools           | 🧩 Icon        |      |     |
-| user            | 🧩 Icon        |      |     |
-| alarm_clock     | 🧩 Icon        |      |     |
-| apple           | 🧩 Icon        |      |     |
-| band_aid        | 🧩 Icon        |      |     |
-| bar             | 🧩 Icon        |      |     |
-| bottle          | 🧩 Icon        |      |     |
-| breathing       | 🧩 Icon        |      |     |
-| cardio          | 🧩 Icon        |      |     |
-| carrot          | 🧩 Icon        |      |     |
-| cigarette       | 🧩 Icon        |      |     |
-| coach           | 🧩 Icon        |      |     |
-| coffee          | 🧩 Icon        |      |     |
-| community       | 🧩 Icon        |      |     |
-| dosage          | 🧩 Icon        |      |     |
-| drinking        | 🧩 Icon        |      |     |
-| driving         | 🧩 Icon        |      |     |
-| exercise        | 🧩 Icon        |      |     |
-| family          | 🧩 Icon        |      |     |
-| journal         | 🧩 Icon        |      |     |
-| kit             | 🧩 Icon        |      |     |
-| love            | 🧩 Icon        |      |     |
-| lungs           | 🧩 Icon        |      |     |
-| meal            | 🧩 Icon        |      |     |
-| medication_list | 🧩 Icon        |      |     |
-| medication      | 🧩 Icon        |      |     |
-| mindful         | 🧩 Icon        |      |     |
-| mission         | 🧩 Icon        |      |     |
-| nightlife       | 🧩 Icon        |      |     |
-| nrt_gum         | 🧩 Icon        |      |     |
-| nrt_lozenge     | 🧩 Icon        |      |     |
-| nrt_patch       | 🧩 Icon        |      |     |
-| outdoors        | 🧩 Icon        |      |     |
-| quit_aids       | 🧩 Icon        |      |     |
-| ribbon          | 🧩 Icon        |      |     |
-| snack           | 🧩 Icon        |      |     |
-| target          | 🧩 Icon        |      |     |
-| thinking        | 🧩 Icon        |      |     |
-| tooth           | 🧩 Icon        |      |     |
-| trophy          | 🧩 Icon        |      |     |
-| vape            | 🧩 Icon        |      |     |
-| walk            | 🧩 Icon        |      |     |
-| water           | 🧩 Icon        |      |     |
-|                 | 🎖 Badge        |      |     |
-|                 | 🖼 Illustration |      |     |
+| Name            | Variant        | .svg                                                           | .js |
+| --------------- | -------------- | -------------------------------------------------------------- | --- |
+| Admin           | 🧩 Icon        |                                                                |     |
+| Arrow Left      | 🧩 Icon        |                                                                |     |
+| Arrow Right     | 🧩 Icon        |                                                                |     |
+| Bookmark Hollow | 🧩 Icon        |                                                                |     |
+| Bookmark        | 🧩 Icon        |                                                                |     |
+| Calendar        | 🧩 Icon        |                                                                |     |
+| Camera          | 🧩 Icon        |                                                                |     |
+| Check           | 🧩 Icon        |                                                                |     |
+| Chevron Down    | 🧩 Icon        |                                                                |     |
+| Chevron Left    | 🧩 Icon        |                                                                |     |
+| Chevron Right   | 🧩 Icon        |                                                                |     |
+| Chevron Up      | 🧩 Icon        |                                                                |     |
+| Circle Dot      | 🧩 Icon        |                                                                |     |
+| Circle Hollow   | 🧩 Icon        |                                                                |     |
+| Circle          | 🧩 Icon        |                                                                |     |
+| Close           | 🧩 Icon        |                                                                |     |
+| Eye Open        | 🧩 Icon        |                                                                |     |
+| Eye Close       | 🧩 Icon        |                                                                |     |
+| Graph Line      | 🧩 Icon        |                                                                |     |
+| Home            | 🧩 Icon        |                                                                |     |
+| Info            | 🧩 Icon        |                                                                |     |
+| Options         | 🧩 Icon        |                                                                |     |
+| Phone           | 🧩 Icon        |                                                                |     |
+| Square Hollow   | 🧩 Icon        |                                                                |     |
+| Square          | 🧩 Icon        |                                                                |     |
+| Star Hollow     | 🧩 Icon        |                                                                |     |
+| Star            | 🧩 Icon        |                                                                |     |
+| Supporter       | 🧩 Icon        |                                                                |     |
+| Thumbs Down     | 🧩 Icon        |                                                                |     |
+| Thumbs Up       | 🧩 Icon        |                                                                |     |
+| Timer           | 🧩 Icon        |                                                                |     |
+| Tools           | 🧩 Icon        |                                                                |     |
+| User            | 🧩 Icon        |                                                                |     |
+| Alarm Clock     | 🧩 Icon        |                                                                |     |
+| Apple           | 🧩 Icon        |                                                                |     |
+| Band Aid        | 🧩 Icon        |                                                                |     |
+| Bar             | 🧩 Icon        |                                                                |     |
+| Bottle          | 🧩 Icon        |                                                                |     |
+| Breathing       | 🧩 Icon        |                                                                |     |
+| Cardio          | 🧩 Icon        |                                                                |     |
+| Carrot          | 🧩 Icon        |                                                                |     |
+| Cigarette       | 🧩 Icon        |                                                                |     |
+| Coach           | 🧩 Icon        |                                                                |     |
+| Coffee          | 🧩 Icon        |                                                                |     |
+| Community       | 🧩 Icon        |                                                                |     |
+| Dosage          | 🧩 Icon        |                                                                |     |
+| Drinking        | 🧩 Icon        |                                                                |     |
+| Driving         | 🧩 Icon        |                                                                |     |
+| Exercise        | 🧩 Icon        |                                                                |     |
+| Family          | 🧩 Icon        |                                                                |     |
+| Journal         | 🧩 Icon        |                                                                |     |
+| Kit             | 🧩 Icon        |                                                                |     |
+| Love            | 🧩 Icon        |                                                                |     |
+| Lungs           | 🧩 Icon        |                                                                |     |
+| Meal            | 🧩 Icon        |                                                                |     |
+| Medication List | 🧩 Icon        |                                                                |     |
+| Medication      | 🧩 Icon        |                                                                |     |
+| Mindful         | 🧩 Icon        |                                                                |     |
+| Mission         | 🧩 Icon        |                                                                |     |
+| Nightlife       | 🧩 Icon        |                                                                |     |
+| NRT Gum         | 🧩 Icon        |                                                                |     |
+| NRT Lozenge     | 🧩 Icon        |                                                                |     |
+| NRT Patch       | 🧩 Icon        |                                                                |     |
+| Outdoors        | 🧩 Icon        |                                                                |     |
+| Quit Aids       | 🧩 Icon        |                                                                |     |
+| Ribbon          | 🧩 Icon        |                                                                |     |
+| Snack           | 🧩 Icon        |                                                                |     |
+| Target          | 🧩 Icon        |                                                                |     |
+| Thinking        | 🧩 Icon        |                                                                |     |
+| Tooth           | 🧩 Icon        |                                                                |     |
+| Trophy          | 🧩 Icon        |                                                                |     |
+| Vape            | 🧩 Icon        |                                                                |     |
+| Walk            | 🧩 Icon        |                                                                |     |
+| Water           | 🧩 Icon        |                                                                |     |
+| Calendar        | 🎖 Badge        |                                                                |     |
+| Commit Achieved | 🎖 Badge        | [Commit Achieved.svg](./assets/svg/Badges/Commit-Achieved.svg) |     |
+| Commit Locked   | 🎖 Badge        | [Commit Locked.svg](./assets/svg/Badges/Commit-Locked.svg)     |     |
+| Mission         | 🎖 Badge        |                                                                |     |
+| Ribbon          | 🎖 Badge        |                                                                |     |
+| Trophy          | 🎖 Badge        |                                                                |     |
+|                 | 🖼 Illustration |                                                                |     |
 
 # 📚 SVG Guidelines:
 
