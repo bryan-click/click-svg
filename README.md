@@ -28,91 +28,97 @@ Depending on your needs and role, follow the guidelines below to create new or e
 
 ## **Table of SVGs**
 
-| Name            | Variant        | .svg                                                           | .js |
-| --------------- | -------------- | -------------------------------------------------------------- | --- |
-| Admin           | 🧩 Icon        |                                                                |     |
-| Arrow Left      | 🧩 Icon        |                                                                |     |
-| Arrow Right     | 🧩 Icon        |                                                                |     |
-| Bookmark Hollow | 🧩 Icon        |                                                                |     |
-| Bookmark        | 🧩 Icon        |                                                                |     |
-| Calendar        | 🧩 Icon        |                                                                |     |
-| Camera          | 🧩 Icon        |                                                                |     |
-| Check           | 🧩 Icon        |                                                                |     |
-| Chevron Down    | 🧩 Icon        |                                                                |     |
-| Chevron Left    | 🧩 Icon        |                                                                |     |
-| Chevron Right   | 🧩 Icon        |                                                                |     |
-| Chevron Up      | 🧩 Icon        |                                                                |     |
-| Circle Dot      | 🧩 Icon        |                                                                |     |
-| Circle Hollow   | 🧩 Icon        |                                                                |     |
-| Circle          | 🧩 Icon        |                                                                |     |
-| Close           | 🧩 Icon        |                                                                |     |
-| Eye Open        | 🧩 Icon        |                                                                |     |
-| Eye Close       | 🧩 Icon        |                                                                |     |
-| Graph Line      | 🧩 Icon        |                                                                |     |
-| Home            | 🧩 Icon        |                                                                |     |
-| Info            | 🧩 Icon        |                                                                |     |
-| Options         | 🧩 Icon        |                                                                |     |
-| Phone           | 🧩 Icon        |                                                                |     |
-| Square Hollow   | 🧩 Icon        |                                                                |     |
-| Square          | 🧩 Icon        |                                                                |     |
-| Star Hollow     | 🧩 Icon        |                                                                |     |
-| Star            | 🧩 Icon        |                                                                |     |
-| Supporter       | 🧩 Icon        |                                                                |     |
-| Thumbs Down     | 🧩 Icon        |                                                                |     |
-| Thumbs Up       | 🧩 Icon        |                                                                |     |
-| Timer           | 🧩 Icon        |                                                                |     |
-| Tools           | 🧩 Icon        |                                                                |     |
-| User            | 🧩 Icon        |                                                                |     |
-| Alarm Clock     | 🧩 Icon        |                                                                |     |
-| Apple           | 🧩 Icon        |                                                                |     |
-| Band Aid        | 🧩 Icon        |                                                                |     |
-| Bar             | 🧩 Icon        |                                                                |     |
-| Bottle          | 🧩 Icon        |                                                                |     |
-| Breathing       | 🧩 Icon        |                                                                |     |
-| Cardio          | 🧩 Icon        |                                                                |     |
-| Carrot          | 🧩 Icon        |                                                                |     |
-| Cigarette       | 🧩 Icon        |                                                                |     |
-| Coach           | 🧩 Icon        |                                                                |     |
-| Coffee          | 🧩 Icon        |                                                                |     |
-| Community       | 🧩 Icon        |                                                                |     |
-| Dosage          | 🧩 Icon        |                                                                |     |
-| Drinking        | 🧩 Icon        |                                                                |     |
-| Driving         | 🧩 Icon        |                                                                |     |
-| Exercise        | 🧩 Icon        |                                                                |     |
-| Family          | 🧩 Icon        |                                                                |     |
-| Journal         | 🧩 Icon        |                                                                |     |
-| Kit             | 🧩 Icon        |                                                                |     |
-| Love            | 🧩 Icon        |                                                                |     |
-| Lungs           | 🧩 Icon        |                                                                |     |
-| Meal            | 🧩 Icon        |                                                                |     |
-| Medication List | 🧩 Icon        |                                                                |     |
-| Medication      | 🧩 Icon        |                                                                |     |
-| Mindful         | 🧩 Icon        |                                                                |     |
-| Mission         | 🧩 Icon        |                                                                |     |
-| Nightlife       | 🧩 Icon        |                                                                |     |
-| NRT Gum         | 🧩 Icon        |                                                                |     |
-| NRT Lozenge     | 🧩 Icon        |                                                                |     |
-| NRT Patch       | 🧩 Icon        |                                                                |     |
-| Outdoors        | 🧩 Icon        |                                                                |     |
-| Quit Aids       | 🧩 Icon        |                                                                |     |
-| Ribbon          | 🧩 Icon        |                                                                |     |
-| Snack           | 🧩 Icon        |                                                                |     |
-| Target          | 🧩 Icon        |                                                                |     |
-| Thinking        | 🧩 Icon        |                                                                |     |
-| Tooth           | 🧩 Icon        |                                                                |     |
-| Trophy          | 🧩 Icon        |                                                                |     |
-| Vape            | 🧩 Icon        |                                                                |     |
-| Walk            | 🧩 Icon        |                                                                |     |
-| Water           | 🧩 Icon        |                                                                |     |
-| Calendar        | 🎖 Badge        |                                                                |     |
-| Commit Achieved | 🎖 Badge        | [Commit Achieved.svg](./assets/svg/Badges/Commit-Achieved.svg) |     |
-| Commit Locked   | 🎖 Badge        | [Commit Locked.svg](./assets/svg/Badges/Commit-Locked.svg)     |     |
-| Mission         | 🎖 Badge        |                                                                |     |
-| Ribbon          | 🎖 Badge        |                                                                |     |
-| Trophy          | 🎖 Badge        |                                                                |     |
-|                 | 🖼 Illustration |                                                                |     |
+| Name              | Variant        | .svg                                 | .js                           |
+| ----------------- | -------------- | ------------------------------------ | ----------------------------- |
+| Admin             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Arrow Left        | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Arrow Right       | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Bookmark Hollow   | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Bookmark          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Calendar          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Camera            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Check             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Chevron Down      | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Chevron Left      | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Chevron Right     | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Chevron Up        | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Circle Dot        | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Circle Hollow     | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Circle            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Close             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Eye Open          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Eye Close         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Graph Line        | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Home              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Info              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Options           | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Phone             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Square Hollow     | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Square            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Star Hollow       | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Star              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Supporter         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Thumbs Down       | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Thumbs Up         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Timer             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Tools             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| User              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Alarm Clock       | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Apple             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Band Aid          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Bar               | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Bottle            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Breathing         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Cardio            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Carrot            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Cigarette         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Coach             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Coffee            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Community         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Dosage            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Drinking          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Driving           | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Exercise          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Family            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Journal           | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Kit               | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Love              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Lungs             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Meal              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Medication List   | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Medication        | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Mindful           | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Mission           | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Nightlife         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| NRT Gum           | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| NRT Lozenge       | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| NRT Patch         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Outdoors          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Quit Aids         | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Ribbon            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Snack             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Target            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Thinking          | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Tooth             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Trophy            | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Vape              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Walk              | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Water             | 🧩 Icon        | [Asset](./assets/svg/Icons/)         | [React](./src/Icon/)          |
+| Calendar Achieved | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Calendar Locked   | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Commit Achieved   | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Commit Locked     | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Mission Achieved  | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Mission Locked    | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Ribbon Achieved   | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Ribbon Locked     | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Trophy Achieved   | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+| Trophy Locked     | 🎖 Badge        | [Asset](./assets/svg/Badges/)        | [React](./src/Badge/)         |
+|                   | 🖼 Illustration | [Asset](./assets/svg/Illustrations/) | [React](./src/Illustrations/) |
 
 # 📚 SVG Guidelines:
+
+SVG is cool, it’s the future, it’s time to learn it. You can use SVG on the web pretty easily, but there is plenty you should know.
 
 ## SVG for Designers 🧑‍🎨
 
@@ -147,17 +153,55 @@ All Icons are singular, compound paths – designed flat and with a single `fill
 
 **Layers:**
 
-**⬛︎ Background layer**
+**⬛︎ Backdrop layer**
 
-Every Illustration should contain a background with 08r corners.
+Every Illustration should contain a backdrop with 08r corners.
 
-`<svg/>`
+**Example:**
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <!-- ⬛︎ Backdrop Symbol -->
+    <symbol id="backdrop" data-name="backdrop" viewBox="0 0 327 218">
+      <rect width="327" height="218" rx="8" fill="#FFF"/>
+    </symbol>
+  </defs>
+
+  <!-- ⬛︎ Backdrop Layer -->
+  <use width="327" height="218" xlink:href="#backdrop"/>
+</svg>
+```
 
 **🦠 Blob layer**
 
 The first layer of every Illustration is a Blob symbol. There are 8 blob variants to select from – choose the best blob for the illustration you are creating. Whichever blob style you select, it should be horizontally and vertically centered.
 
-`<svg/>`
+**Example:**
+
+```
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 327 218">
+  <defs>
+    <!-- ⬛︎ Backdrop Symbol -->
+    <symbol id="backdrop" data-name="backdrop" viewBox="0 0 327 218">
+      <rect width="327" height="218" rx="8" fill="#FFF"/>
+    </symbol>
+    <!-- 🦠 Blob Symbol -->
+    <symbol id="blob7" data-name="Blob 7" viewBox="0 0 282.25 202.24">
+      <path
+        d="M.57 118.7c-6.4-40 42.49-36.08 76-16.38s54.09 18.67 75.37 47.42-18.57 53.89-52.68 52.44S7 158.71.57 118.7zM172.94 0C217 0 282.25 21.23 282.25 90.11S182 155 153.53 116.31s-101.45-55.58-88.34-81S128.84 0 172.94 0z"
+        fill="#FFF1E8"
+        fillRule="evenodd"
+      />
+    </symbol>
+  </defs>
+
+  <!-- ⬛︎ Backdrop Layer -->
+  <use width="327" height="218" xlink:href="#backdrop"/>
+  <!-- 🦠 Blob Layer -->
+  <use width="282.25" height="202.24" transform="translate(22.37 7.88)" xlink:href="#blob7" />
+</svg>
+```
 
 ---
 
@@ -175,7 +219,19 @@ Every Badge starts as a circle background.
 
 **⚫️ Circle**
 
-`<svg/>`
+```
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96 96">
+  <defs>
+    <!-- ⚫️ Circle Symbol -->
+    <symbol id="circle" data-name="cirlce" viewBox="0 0 96 96">
+      <circle cx="48" cy="48" fill="#FFF1E8"/>
+    </symbol>
+  </defs>
+
+  <!-- ⚫️ Circle Layer -->
+  <use width="96" height="96" xlink:href="#circle"/>
+</svg>
+```
 
 **States:**
 
@@ -192,13 +248,30 @@ A lot of SVG files (particularly those generated by SVG editors like Sketch or A
 1. [Mozilla Developer Guideline](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/SVG_Guidelines)
 2. [SVGR](https://react-svgr.com/)
 
-### HTML
+****Directory Setup****
 
-#### Websites
+```
+├── assets
+│   ├── svg
+│   │   ├── Badges
+│   │   │   └── **.svg
+│   │   ├── Icons
+│   │   │   └── **.svg
+│   │   └── Illustrations
+│   │       └── **.svg
+├── src
+│   ├── Badge
+│   │   └── **.js
+│   ├── Icon
+│   │   └── **.js
+│   └── Illustration
+│       └── **.js
+└── README.md
+```
 
-#### Emails
+**_TO DO_**
 
-### React
+> \***\*🚧 Coming Soon:\*\*** The engineering guidelines for this section needs to be written.
 
 ## **🤔 Frequently Asked Questions**
 
